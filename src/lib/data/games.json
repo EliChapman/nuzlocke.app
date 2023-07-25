@@ -11,6 +11,105 @@
     "region": "torren",
     "lastUpdated": "27th March 2023"
   },
+  "newgen": {
+    "pid": "newgen",
+    "lid": "newgen",
+    "logo": "/logos/new-generations-logo",
+    "title": "New Generations",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "newgen",
+    "region": "kanto",
+    "lastUpdated": "5th May 2023"
+  },
+  "blazingem": {
+    "pid": "blazingem",
+    "lid": "blazingem",
+    "logo": "/logos/blazing-emerald-logo",
+    "title": "Blazing Emerald",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "blazingem",
+    "region": "hoenn",
+    "lastUpdated": "26th April 2023"
+  },
+  "emrunbun": {
+    "pid": "emrunbun",
+    "lid": "emrunbun",
+    "logo": "/logos/runbun-logo",
+    "title": "Emerald Run & Bun",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "emrunbun",
+    "region": "hoenn",
+    "lastUpdated": "12th April 2023"
+  },
+  "glazed": {
+    "pid": "glazed",
+    "lid": "glazed",
+    "logo": "/logos/glazed-logo",
+    "title": "Glazed",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "glazed",
+    "region": "tunod",
+    "lastUpdated": "26th April 2023"
+  },
+  "rrss": {
+    "pid": "rrss",
+    "logo": "/logos/rising-ruby-logo",
+    "title": "Rising Ruby",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "rrss",
+    "region": "hoenn",
+    "lastUpdated": "3rd April 2023"
+  },
+  "ssaph": {
+    "pid": "ssaph",
+    "lid": "rrss",
+    "logo": "/logos/sinking-sapphire-logo",
+    "title": "Sinking Sapphire",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "rrss",
+    "region": "hoenn",
+    "lastUpdated": "27th May 2023"
+  },
+  "unbound": {
+    "pid": "unbound",
+    "lid": "unbound",
+    "logo": "/logos/unbound-logo",
+    "title": "Unbound",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "unbound",
+    "region": "borrius",
+    "lastUpdated": "30th March 2023",
+    "difficulty": [":", "Expert:_exp"]
+  },
+  "emkaizo": {
+    "pid": "emkaizo",
+    "logo": "/logos/emerald-kaizo-logo",
+    "title": "Emerald Kaizo",
+    "gen": "romhack",
+    "supported": true,
+    "region": "hoenn",
+    "patched": true,
+    "lastUpdated": "30th March 2023",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen5",
+      "physicalSpecialSplit": true
+    }
+  },
   "vi": {
     "pid": "vi",
     "lid": "sv",
@@ -19,7 +118,7 @@
     "gen": "IX",
     "supported": true,
     "region": "paldea",
-    "lastUpdated": "3rd March 2023"
+    "lastUpdated": "1st April 2023"
   },
   "sc": {
     "pid": "sc",
@@ -29,7 +128,7 @@
     "gen": "IX",
     "supported": true,
     "region": "paldea",
-    "lastUpdated": "3rd March 2023"
+    "lastUpdated": "1st April 2023"
   },
   "sw": {
     "pid": "sw",
@@ -144,6 +243,30 @@
       "moves": "pregen6"
     }
   },
+  "blaze": {
+    "pid": "blaze",
+    "patchId": "blazevolt",
+    "lid": "blazevolt",
+    "logo": "/logos/blaze-black-logo",
+    "title": "Blaze Black",
+    "gen": "romhack",
+    "patched": true,
+    "supported": true,
+    "region": "unova",
+    "lastUpdated": "24th April 2023"
+  },
+  "volt": {
+    "pid": "volt",
+    "patchId": "blazevolt",
+    "lid": "blazevolt",
+    "logo": "/logos/volt-white-logo",
+    "title": "Volt White",
+    "gen": "romhack",
+    "patched": true,
+    "supported": true,
+    "region": "unova",
+    "lastUpdated": "24th April 2023"
+  },
   "bl": {
     "pid": "bl",
     "lid": "bw",
@@ -175,7 +298,7 @@
     "lid": "bdsp",
     "logo": "/logos/brilliant-diamond-logo",
     "title": "Brilliant Diamond",
-    "gen": "IV",
+    "gen": "VIII",
     "supported": true,
     "region": "sinnoh"
   },
@@ -184,19 +307,22 @@
     "lid": "bdsp",
     "logo": "/logos/shining-pearl-logo",
     "title": "Shining Pearl",
-    "gen": "IV",
+    "gen": "VIII",
     "supported": true,
     "region": "sinnoh"
   },
   "radred": {
     "pid": "radred",
+    "lid": "radred",
     "logo": "/logos/radical-red-logo",
     "title": "Radical Red",
     "gen": "romhack",
     "supported": true,
     "patched": true,
+    "patchId": "radred",
     "region": "kanto",
-    "lastUpdated": "11th March 2023"
+    "lastUpdated": "11th March 2023",
+    "difficulty": [":", "Hardcore:_hard"]
   },
   "renplat": {
     "pid": "renplat",
@@ -251,7 +377,7 @@
     "lid": "oras",
     "logo": "/logos/omega-ruby-logo",
     "title": "Omega Ruby",
-    "gen": "III",
+    "gen": "VI",
     "supported": true,
     "region": "hoenn"
   },
@@ -260,7 +386,7 @@
     "lid": "oras",
     "logo": "/logos/alpha-sapphire-logo",
     "title": "Alpha Sapphire",
-    "gen": "III",
+    "gen": "VI",
     "supported": true,
     "region": "hoenn"
   },
@@ -277,6 +403,7 @@
       "physicalSpecialSplit": true
     }
   },
+
   "incem": {
     "pid": "incem",
     "logo": "/logos/inclement-emerald-logo",
@@ -319,6 +446,8 @@
     "lid": "sssg",
     "logo": "/logos/storm-silver-logo",
     "title": "Storm Silver",
+    "patched": true,
+    "patchId": "sssg",
     "gen": "romhack",
     "supported": true,
     "region": "johto"
@@ -328,6 +457,8 @@
     "lid": "sssg",
     "logo": "/logos/sacred-gold-logo",
     "title": "Sacred Gold",
+    "patched": true,
+    "patchId": "sssg",
     "gen": "romhack",
     "supported": true,
     "region": "johto"
@@ -337,7 +468,7 @@
     "lid": "hgss",
     "logo": "/logos/heart-gold-logo",
     "title": "Heart Gold",
-    "gen": "II",
+    "gen": "IV",
     "supported": true,
     "region": "johto",
     "filter": {
@@ -350,7 +481,7 @@
     "lid": "hgss",
     "logo": "/logos/soul-silver-logo",
     "title": "Soul Silver",
-    "gen": "II",
+    "gen": "IV",
     "supported": true,
     "region": "johto",
     "filter": {
@@ -405,7 +536,7 @@
     "lid": "frlg",
     "logo": "/logos/fire-red-logo",
     "title": "Fire Red",
-    "gen": "I",
+    "gen": "III",
     "supported": true,
     "region": "kanto",
     "filter": {
@@ -419,7 +550,7 @@
     "lid": "frlg",
     "logo": "/logos/leaf-green-logo",
     "title": "Leaf Green",
-    "gen": "I",
+    "gen": "III",
     "supported": true,
     "region": "kanto",
     "filter": {

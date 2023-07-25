@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      nonce="nuzl0ck3"
-      src="https://www.googletagmanager.com/gtag/js?id=G-9H79BXLQL8"
-    ></script>
-    <script nonce="nuzl0ck3">
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'G-9H79BXLQL8');
-    </script>
-
     <meta charset="utf-8" />
     <link rel="icon" href="/favicon.png" />
     <link rel="apple-touch-icon" href="/icons/apple-icon-180.png" />
@@ -155,8 +140,8 @@
 
     <link rel="manifest" crossorigin="use-credentials" href="/manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#ee8031" />
-    <meta name="robots" content="follow, index" />
+    <meta name="theme-color" content="#ff143b" />
+
     <meta
       name="google-site-verification"
       content="BSa4hVo4IOzUozpwzpY0wRfAkjTVs9wqpG9AxZXzQLo"
@@ -167,18 +152,18 @@
     <meta name="twitter:site" content="@vercel" />
     <meta name="twitter:image" content="/twitter.png" />
 
-    <script>
+    <script data-cfasync="false">
       // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-      const lsid = 'nuzlocke.theme';
+      const lsid = 'nuzlocke.theme'
       const mdark =
         !(lsid in localStorage) &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches;
+        window.matchMedia('(prefers-color-scheme: dark)').matches
 
-      if (mdark) localStorage.setItem(lsid, 'dark');
+      if (mdark) localStorage.setItem(lsid, 'dark')
       if (localStorage[lsid] === 'dark') {
-        document.documentElement.classList.add('dark');
+        document.documentElement.classList.add('dark')
       } else {
-        document.documentElement.classList.remove('dark');
+        document.documentElement.classList.remove('dark')
       }
     </script>
 
@@ -186,4 +171,19 @@
   </head>
 
   <div style="display: contents">%sveltekit.body%</div>
+
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    nonce="nuzl0ck3"
+    src="https://www.googletagmanager.com/gtag/js?id=G-9H79BXLQL8"
+  ></script>
+  <script nonce="nuzl0ck3">
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date())
+    gtag('config', 'G-9H79BXLQL8')
+  </script>
 </html>

@@ -19,6 +19,9 @@ const config = {
       rotate: {
         30: '30deg'
       },
+      gridTemplateColumns: {
+        '20': 'repeat(20, minmax(0, 1fr))',
+      },
       animation: {
         'ping-slow': 'ping 3s ease infinite',
         'spin-slow': 'spin 3s linear infinite',
@@ -32,6 +35,7 @@ const config = {
         grave: '1px 1px 0 rgba(0, 0, 0, 0.5)',
       },
       scale: {
+        65: '0.65',
         200: '2',
         250: '2.5'
       },

@@ -7,22 +7,15 @@
   import { fly } from 'svelte/transition'
   import { onMount } from 'svelte'
 
-  import { readdata, activeGame, savedGames, parse, getGame, read, summarise, trackData } from '$lib/store'
+  import { readdata, summarise, trackData } from '$lib/store'
   import { PixelatedContainer } from '$lib/components/containers'
 
-  import Games from '$lib/data/games'
-  import { Logo, Picture, PIcon } from '$lib/components/core'
-
-  import Icon from '@iconify/svelte/dist/OfflineIcon.svelte'
+  import { Expanded as Games } from '$lib/data/games'
+  import { Logo, Picture, PIcon, Icon } from '$lib/components/core'
   import { Deceased } from '$icons'
 
   const interval = 5000
   const distance = 300
-
-  let hovering = false
-  const toggleHover = () => hovering = !hovering
-
-  const dur = d => 10 * Math.sqrt(d)
 
   let flip = 0
   setInterval(() => {
@@ -30,7 +23,9 @@
     id = Math.round(Math.random() * 151)
   }, interval)
 
-  let activeId, active = {}, summary = {}
+  let activeId,
+    active = {},
+    summary = {}
   let links = [
     { title: 'New Game', href: '/new', color: 'blue' },
     { title: 'Load Game', href: '/saves', color: 'pink' },
@@ -38,19 +33,28 @@
   ]
 
   onMount(() => {
-    const [data,,id, save] = readdata()
+    const [data, , id, save] = readdata()
     activeId = id
     active = save
-    summarise(data => summary = data)(data)
+    summarise((data) => {
+      summary = data
+
+      console.log(summary)
+    })(data)
 
     if (active) {
       links = [
-        { title: 'Continue', href: '/game', color: 'yellow', aria: 'Continue game: ' + active.name },
+        {
+          title: 'Continue',
+          href: '/game',
+          color: 'yellow',
+          aria: 'Continue game: ' + active.name
+        },
         ...links
       ]
     }
 
-    // trackData()
+    trackData()
   })
 
   let src
@@ -58,124 +62,160 @@
   $: src = createImgUrl({ imgId: id }, { ext: 'png' })
 </script>
 
+<svelte:head>
+  <link rel="preload" as="image" href="https://img.nuzlocke.app/assets/pokemon-v6.png" />
+  <link rel="preload" as="image" href="/logo.webp" />
+  <link rel="preload" as="image" href="/logo.png" />
+</svelte:head>
+
 <main>
-  <h1 aria-level=1 class='mx-auto text-center font-mono text-4xl'>
+  <h1 aria-level="1" class="mx-auto text-center font-mono text-4xl">
     Pokémon
     <Picture
-      src=/logo
-      aspect=324x62
+      src="/logo"
+      loading="eager"
+      aspect="324x62"
       pixelated
-      alt='Nuzlocke logo'
-      className='transition h-auto md:h-16 mt-2 mx-auto {hovering ? '' : 'md:grayscale'}'
+      alt="Nuzlocke logo"
+      className="transition h-auto md:h-16 mt-2 mx-auto"
     />
     tracker
   </h1>
 
   <div>
-    <PixelatedContainer className=container__index>
-
-      <div class='font-bold flex flex-col h-36 justify-center'>
-
+    <PixelatedContainer className="container__index">
+      <div class="flex h-36 flex-col justify-center font-bold">
         {#each links as { title, href, color, aria } (href)}
-          <a animate:animflip in:fly={{ x: -50 }}
-             class='group tracking-widest hover:drop-shadow-text {color}'
-             on:mouseenter={toggleHover}
-             on:mouseleave={toggleHover}
-             {href}
-             aria-label={aria}
-             data-sveltekit-preload-data
-             rel=external
-           >
-            {title}
+          <a
+            animate:animflip
+            in:fly={{ x: -50 }}
+            class="group tracking-widest hover:drop-shadow-text {color}"
+            {href}
+            aria-label={aria}
+            data-sveltekit-preload-data
+            rel="external"
+          >
             {#if title === 'Continue'}
-              <div class='flex flex-row group-hover:grayscale-0 md:grayscale items-center transition h-8 -mt-1 font-sans text-sm font-normal'>
-                <Logo
-                  src='{IMG}{Games[active.game].logo}'
-                  alt='{active.game} logo'
-                  class=mr-2
-                  aspect=32xauto
-                  />
+              {title}
 
+              <div
+                class="-ml-2 flex h-8 flex-row items-center font-sans text-sm font-normal transition group-hover:grayscale-0 md:grayscale"
+              >
+                <Logo
+                  loading="eager"
+                  src="{IMG}{Games[active.game].logo}"
+                  alt="{active.game} logo"
+                  pictureClass="game--{active.game}"
+                  class="ml-2 inline"
+                  aspect="48xauto"
+                />
+
+                <PIcon
+                  className="transform scale-75 -mr-1 -mt-0.5"
+                  type="item"
+                  name="poke-ball"
+                />
                 <span>{summary.available.length}</span>
-                <PIcon className='transform scale-75 -ml-1' type='item' name='poke-ball' />
+                <Icon
+                  inline={true}
+                  class="mx-1 h-3 w-3 fill-current"
+                  icon={Deceased}
+                />
                 <span>{summary.deceased.length}</span>
-                <Icon inline={true} class='ml-1 w-3 h-3 fill-current' icon={Deceased} />
               </div>
+            {:else}
+              {title}
             {/if}
           </a>
         {/each}
-
-        <!-- <span> -->
-        <!--   <button class='tracking-widest hover:drop-shadow-text hover:text-orange-400' on:mouseenter={toggleHover} on:mouseleave={toggleHover}> -->
-        <!--     Settings -->
-        <!--   </button> -->
-        <!--   <\!-- TODO: Rules -\-> -->
-        <!-- </span> -->
-
       </div>
 
-      <div class='img__container h-full -mx-12 relative'>
-        {#if !flip}
-          <img {src} rel=external alt='Pokemon #{id}'
-               class='absolute transition right-0 w-full -my-2 md:-my-12 -ml-12'
-               class:md:grayscale={!hovering}
-               out:fly={{ y: distance, duration }}
-               in:fly={{ y: -distance, duration }}
-             />
-        {/if}
-        {#if flip}
-          <img {src} rel=external alt='Pokemon #{id}'
-               class='absolute transition right-0 w-full -my-2 md:-my-12 -ml-12'
-               class:md:grayscale={!hovering}
-               out:fly={{ y: distance, duration }}
-               in:fly={{ y: -distance, duration }}
-             />
+      <div class="img__container relative -mx-12 h-full">
+        {#if !summary?.team?.length}
+          {#if !flip}
+            <img
+              {src}
+              rel="external"
+              alt="Pokemon #{id}"
+              class="absolute right-0 -my-2 -ml-12 w-full transition md:-my-12"
+              out:fly={{ y: distance, duration }}
+              in:fly={{ y: -distance, duration }}
+            />
+          {/if}
+          {#if flip}
+            <img
+              {src}
+              rel="external"
+              alt="Pokemon #{id}"
+              class="absolute right-0 -my-2 -ml-12 w-full transition md:-my-12"
+              out:fly={{ y: distance, duration }}
+              in:fly={{ y: -distance, duration }}
+            />
+          {/if}
+        {:else}
+          <div
+            in:fly={{ y: -distance, duration }}
+            class="absolute mt-14 -ml-4 inline-grid w-20 origin-left -translate-y-1/2 scale-200 transform grid-cols-2 transition md:mt-12 md:ml-0 md:w-24 md:grid-cols-3"
+          >
+            {#each summary.team as icon, i}
+              <span
+                style="--bob-delay: {(5 * ((i * 11) % 7)) / 10}s"
+                class="bob relative h-8 w-8"
+              >
+                <PIcon
+                  class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+                  name={icon}
+                />
+              </span>
+            {/each}
+          </div>
         {/if}
       </div>
     </PixelatedContainer>
   </div>
 
   <p>
-    Keep track of your Pokémon encounters across multiple Nuzlocke
-    runs, and prepare for Gym battles and Rival fights so you never
-    wipe again! Get insights into team match ups, compare stat
-    blocks and get detail on Gym movesets & abilities.
+    Keep track of your Pokémon encounters across multiple Nuzlocke runs, and
+    prepare for Gym battles and Rival fights so you never wipe again! Get
+    insights into team match ups, compare stat blocks and get detail on Gym
+    movesets & abilities.
   </p>
-
 </main>
 
 <style lang="postcss">
   main {
-    @apply container mx-auto flex flex-col justify-center mt-16
+    @apply container mx-auto mt-16 flex flex-col justify-center;
   }
 
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     main {
-      @apply absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 -mt-8;
+      @apply absolute top-1/2 left-1/2 -mt-8 -translate-y-1/2 -translate-x-1/2;
     }
   }
 
-  @media (min-height:700px) {
+  @media (min-height: 700px) {
     main {
-      @apply absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 -mt-8;
+      @apply absolute top-1/2 left-1/2 -mt-8 -translate-y-1/2 -translate-x-1/2;
     }
   }
 
-  main > div { @apply py-7 px-6 sm:px-4 overflow-hidden mt-10; }
+  main > div {
+    @apply mt-10 overflow-hidden py-7 px-6 sm:px-4;
+  }
 
   p {
-    @apply max-w-lg mt-4 mx-auto text-center leading-4 text-tiny text-gray-900 px-4
+    @apply mx-auto mt-4 max-w-lg px-4 text-center text-tiny leading-4 text-gray-900;
   }
 
   :global(.dark) p {
-    @apply text-gray-400
+    @apply text-gray-400;
   }
 
   :global(.container__index) {
-    @apply font-mono relative max-h-48 max-w-md mx-auto flex sm:flex-row justify-evenly items-center gap-y-2 text-3xl py-8 h-full w-auto;
+    @apply relative mx-auto flex h-full max-h-56 w-auto max-w-md items-center justify-evenly gap-y-2 py-8 font-mono text-3xl sm:flex-row;
   }
 
-  @media (max-width:640px) {
+  @media (max-width: 640px) {
     :global(.container__index > div) {
       @apply -ml-8;
     }
@@ -197,8 +237,54 @@
     transition-duration: 300ms !important;
   }
 
-  .pink { @apply hover:text-pink-500 }
-  .blue { @apply hover:text-blue-400 }
-  .green { @apply hover:text-green-400 }
-  .yellow { @apply hover:text-yellow-400 }
+  .pink {
+    @apply hover:text-pink-500;
+  }
+  .blue {
+    @apply hover:text-blue-400;
+  }
+  .green {
+    @apply hover:text-green-400;
+  }
+  .yellow {
+    @apply hover:text-yellow-400;
+  }
+
+  :global(.game--emkaizo),
+  :global(.game--fr),
+  :global(.game--sp),
+  :global(.game--bd) {
+    @apply -mr-2 -translate-x-1;
+  }
+  :global(.game--sw),
+  :global(.game--sh) {
+    @apply -mr-2 md:-mr-5 md:-translate-x-3;
+  }
+
+  :root {
+    --bob-delay: 0.2s;
+  }
+
+  .bob {
+    animation: bob 3s steps(1, end) var(--bob-delay) infinite;
+  }
+
+  @keyframes bob {
+    5%,
+    15%,
+    25%,
+    35%,
+    45% {
+      transform: translateY(-3px);
+    }
+    ,
+    0%,
+    10%,
+    20%,
+    30%,
+    40%,
+    50% {
+      transform: translateY(0px);
+    }
+  }
 </style>

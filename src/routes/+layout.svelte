@@ -1,24 +1,37 @@
 <script>
-  import "../app.postcss";
+  import '../app.postcss'
 
-  import { CookieBanner, Footer } from '$c/navs';
+  import { page } from '$app/stores'
+  import { afterUpdate } from 'svelte'
+  import { CookieBanner, Footer } from '$c/navs'
 
-  const title = 'Nuzlocke Tracker';
-  const subtitle = 'Track encounters, analyse your team, be prepared';
+  import createErrorModal from '$utils/error-handler'
+  import deferStyles from '$lib/utils/defer-styles'
+
+  afterUpdate(async () => {
+    deferStyles('/assets/pokemon.css')
+    deferStyles('/assets/badges.css')
+    window.onunhandledrejection = createErrorModal
+  })
+
+  const title = 'Nuzlocke Tracker'
+  const subtitle = 'Track encounters, analyse your team, be prepared'
   const description =
-    'Best application to track Pokémon encounters and prepare for every boss battle with details on stats, movesets, & abilities - never lose a Nuzlocke run again.';
+    'Best application to track Pokémon encounters and prepare for every boss battle with details on stats, movesets, & abilities - never lose a Nuzlocke run again.'
 </script>
 
 <svelte:head>
-  <title>{title} | {subtitle}</title>
-  <meta property="og:title" content="{title} | {subtitle}" />
-  <meta name="twitter:title" content={title} />
+  {#if $page.status === 200}
+    <title>{title} | {subtitle}</title>
+    <meta property="og:title" content="{title} | {subtitle}" />
+    <meta name="twitter:title" content={title} />
 
-  <meta content={description} name="description" />
-  <meta name="twitter:description" content={description} />
+    <meta content={description} name="description" />
+    <meta name="twitter:description" content={description} />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="dns-prefetch" href="https://img.nuzlocke.app" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://img.nuzlocke.app" crossorigin />
+  {/if}
 </svelte:head>
 
 <slot />

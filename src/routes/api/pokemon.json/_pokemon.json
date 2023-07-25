@@ -6018,8 +6018,8 @@
     "name": "Ho-Oh",
     "label": "Ho-Oh",
     "sprite": "ho-oh",
-    "alias": "ho-oh",
-    "evoline": "ho-oh",
+    "alias": "hooh",
+    "evoline": "hooh",
     "evos": [],
     "imgId": 250,
     "num": 345,
@@ -9821,7 +9821,7 @@
   },
   {
     "name": "Burmy",
-    "label": "Burmy",
+    "label": "Burmy Plant Cloak",
     "sprite": "burmy",
     "alias": "burmy",
     "evoline": "burmy",
@@ -9845,8 +9845,58 @@
     }
   },
   {
+    "name": "Burmy",
+    "label": "Burmy Sandy Cloak",
+    "sprite": "burmy-sandy",
+    "alias": "burmy-sandy",
+    "evoline": "burmy",
+    "evos": [
+      "wormadam-sandy",
+      "mothim"
+    ],
+    "imgId": "412-sandy",
+    "num": 541,
+    "types": [
+      "bug"
+    ],
+    "total": 224,
+    "baseStats": {
+      "hp": 40,
+      "atk": 29,
+      "def": 45,
+      "spa": 29,
+      "spd": 45,
+      "spe": 36
+    }
+  },
+  {
+    "name": "Burmy",
+    "label": "Burmy Trash Cloak",
+    "sprite": "burmy-trash",
+    "alias": "burmy-trash",
+    "evoline": "burmy",
+    "evos": [
+      "wormadam-trash",
+      "mothim"
+    ],
+    "imgId": "412-trash",
+    "num": 541,
+    "types": [
+      "bug"
+    ],
+    "total": 224,
+    "baseStats": {
+      "hp": 40,
+      "atk": 29,
+      "def": 45,
+      "spa": 29,
+      "spd": 45,
+      "spe": 36
+    }
+  },
+  {
     "name": "Wormadam",
-    "label": "Wormadam",
+    "label": "Wormadam Plant Cloak",
     "sprite": "wormadam",
     "alias": "wormadam",
     "evoline": "burmy",
@@ -9864,6 +9914,52 @@
       "def": 85,
       "spa": 79,
       "spd": 105,
+      "spe": 36
+    }
+  },
+  {
+    "name": "Wormadam",
+    "label": "Wormadam Sandy Clock",
+    "sprite": "wormadam-sandy",
+    "alias": "wormadam-sandy",
+    "evoline": "burmy",
+    "evos": [],
+    "imgId": 10004,
+    "num": 542,
+    "types": [
+      "bug",
+      "ground"
+    ],
+    "total": 424,
+    "baseStats": {
+      "hp": 60,
+      "atk": 79,
+      "def": 105,
+      "spa": 59,
+      "spd": 85,
+      "spe": 36
+    }
+  },
+  {
+    "name": "Wormadam",
+    "label": "Wormadam Trash Cloak",
+    "sprite": "wormadam-trash",
+    "alias": "wormadam-trash",
+    "evoline": "burmy",
+    "evos": [],
+    "imgId": 10005,
+    "num": 542,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "total": 424,
+    "baseStats": {
+      "hp": 60,
+      "atk": 69,
+      "def": 95,
+      "spa": 69,
+      "spd": 95,
       "spe": 36
     }
   },
@@ -11379,12 +11475,163 @@
     }
   },
   {
+    "name": "Rotom Heat",
+    "label": "Rotom Heat",
+    "sprite": "rotom-heat",
+    "alias": "rotom-heat",
+    "evoline": "rotom",
+    "evos": [
+      "rotom",
+      "rotom-wash",
+      "rotom-mow",
+      "rotom-frost",
+      "rotom-fan"
+    ],
+    "imgId": 10008,
+    "num": 587,
+    "types": [
+      "electric",
+      "fire"
+    ],
+    "total": 520,
+    "baseStats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 107,
+      "spa": 105,
+      "spd": 107,
+      "spe": 86
+    }
+  },
+  {
+    "name": "Rotom Wash",
+    "label": "Rotom Wash",
+    "sprite": "rotom-wash",
+    "alias": "rotom-wash",
+    "evoline": "rotom",
+    "evos": [
+      "rotom",
+      "rotom-heat",
+      "rotom-mow",
+      "rotom-frost",
+      "rotom-fan"
+    ],
+    "imgId": 10009,
+    "num": 587,
+    "types": [
+      "electric",
+      "water"
+    ],
+    "total": 520,
+    "baseStats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 107,
+      "spa": 105,
+      "spd": 107,
+      "spe": 86
+    }
+  },
+  {
+    "name": "Rotom Fan",
+    "label": "Rotom Fan",
+    "sprite": "rotom-fan",
+    "alias": "rotom-fan",
+    "evoline": "rotom",
+    "evos": [
+      "rotom",
+      "rotom-heat",
+      "rotom-mow",
+      "rotom-frost",
+      "rotom-wash"
+    ],
+    "imgId": 10011,
+    "num": 587,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "total": 520,
+    "baseStats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 107,
+      "spa": 105,
+      "spd": 107,
+      "spe": 86
+    }
+  },
+  {
+    "name": "Rotom Frost",
+    "label": "Rotom Frost",
+    "sprite": "rotom-frost",
+    "alias": "rotom-frost",
+    "evoline": "rotom",
+    "evos": [
+      "rotom",
+      "rotom-heat",
+      "rotom-mow",
+      "rotom-fan",
+      "rotom-wash"
+    ],
+    "imgId": 10010,
+    "num": 587,
+    "types": [
+      "electric",
+      "ice"
+    ],
+    "total": 520,
+    "baseStats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 107,
+      "spa": 105,
+      "spd": 107,
+      "spe": 86
+    }
+  },
+  {
+    "name": "Rotom Mow",
+    "label": "Rotom Mow",
+    "sprite": "rotom-mow",
+    "alias": "rotom-mow",
+    "evoline": "rotom",
+    "evos": [
+      "rotom",
+      "rotom-heat",
+      "rotom-frost",
+      "rotom-fan",
+      "rotom-wash"
+    ],
+    "imgId": 10012,
+    "num": 587,
+    "types": [
+      "electric",
+      "grass"
+    ],
+    "total": 520,
+    "baseStats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 107,
+      "spa": 105,
+      "spd": 107,
+      "spe": 86
+    }
+  },
+  {
     "name": "Rotom",
     "label": "Rotom",
     "sprite": "rotom",
     "alias": "rotom",
     "evoline": "rotom",
-    "evos": [],
+    "evos": [
+      "rotom-wash",
+      "rotom-heat",
+      "rotom-mow",
+      "rotom-frost",
+      "rotom-fan"
+    ],
     "imgId": 479,
     "num": 587,
     "types": [
@@ -16155,7 +16402,7 @@
   {
     "name": "Aegislash",
     "label": "Aegislash",
-    "sprite": "aegislash-shield",
+    "sprite": "aegislash",
     "alias": "aegislash-shield",
     "evoline": "honedge",
     "evos": [],
@@ -20176,7 +20423,8 @@
     "alias": "toxel",
     "evoline": "toxel",
     "evos": [
-      "toxtricity"
+      "toxtricity",
+      "toxtricity-low-key"
     ],
     "imgId": 848,
     "num": 1031,
@@ -20199,6 +20447,29 @@
     "label": "Toxtricity",
     "sprite": "toxtricity",
     "alias": "toxtricity",
+    "evoline": "toxel",
+    "evos": [],
+    "imgId": 849,
+    "num": 1032,
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "total": 502,
+    "baseStats": {
+      "hp": 75,
+      "atk": 98,
+      "def": 70,
+      "spa": 114,
+      "spd": 70,
+      "spe": 75
+    }
+  },
+  {
+    "name": "Toxtricity",
+    "label": "Toxtricity",
+    "sprite": "toxtricity-low-key",
+    "alias": "toxtricity-low-key",
     "evoline": "toxel",
     "evos": [],
     "imgId": 849,
@@ -21195,7 +21466,8 @@
     "alias": "kubfu",
     "evoline": "kubfu",
     "evos": [
-      "urshifu"
+      "urshifu-gmax",
+      "urshifu-rapid-strike-gmax"
     ],
     "imgId": 891,
     "num": 1081,
@@ -21215,7 +21487,7 @@
   {
     "name": "Urshifu",
     "label": "Urshifu",
-    "sprite": "urshifu-single-strike",
+    "sprite": "urshifu-gmax",
     "alias": "urshifu-single-strike",
     "evoline": "kubfu",
     "evos": [],
@@ -21224,6 +21496,29 @@
     "types": [
       "fighting",
       "dark"
+    ],
+    "total": 550,
+    "baseStats": {
+      "hp": 100,
+      "atk": 130,
+      "def": 100,
+      "spa": 63,
+      "spd": 60,
+      "spe": 97
+    }
+  },
+  {
+    "name": "Urshifu",
+    "label": "Urshifu",
+    "sprite": "urshifu-rapid-strike-gmax",
+    "alias": "urshifu-rapid-strike",
+    "evoline": "kubfu",
+    "evos": [],
+    "imgId": 10191,
+    "num": 1082,
+    "types": [
+      "fighting",
+      "water"
     ],
     "total": 550,
     "baseStats": {
@@ -24250,7 +24545,7 @@
     "alias": "graveler-alola",
     "evoline": "geodude",
     "evos": [
-      "golem-aloal"
+      "golem-alola"
     ],
     "imgId": 10110,
     "num": 118,
@@ -24463,7 +24758,7 @@
     "alias": "slowpoke-galar",
     "evoline": "slowpoke",
     "evos": [
-      "slowbrow-galar",
+      "slowbro-galar",
       "slowking-galar"
     ],
     "imgId": 10164,

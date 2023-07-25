@@ -13,6 +13,9 @@
 .pkm.pkm-delta {
   background-image: url(https://img.nuzlocke.app/assets/deltas-v1.png) !important;
 }
+.lazy-pkm .pkm {
+  background-image: url(https://img.nuzlocke.app/assets/pokemon-v6.png);
+}
 
 .pksymbol {
   background-image: url(https://img.nuzlocke.app/assets/symbols.png) !important;
@@ -21,7 +24,7 @@
   background-image: url(https://img.nuzlocke.app/assets/items.png) !important;
 }
 .pkb {
-  background-image: url('https://img.nuzlocke.app/assets/badges.png') !important;
+  background-image: url('/assets/badges-v2.png');
   display: inline-block;
   vertical-align: middle;
   image-rendering: pixelated;
@@ -43,7 +46,7 @@ img {
 }
 
 .pkm {
-  filter: saturate(1.6);
+  filter: saturate(1.2);
   display: inline-block;
   vertical-align: middle;
   image-rendering: crisp-edges;
@@ -154,6 +157,33 @@ body {
   @apply text-gray-200 bg-gray-800;
 }
 
+.greenscreen, .greenscreen.green {
+  --gscreen: #09a43f;
+}
+
+.greenscreen.blue {
+  --gscreen: #0143b2;
+}
+
+.greenscreen body, .greenscreen nav, .greenscreen .modal-positioning {
+  background-color: var(--gscreen) !important; 
+}
+
+.greenscreen nav::before {
+  background: linear-gradient(var(--gscreen), 50%, transparent) !important;
+}
+
+.greenscreen .shadow-highlight, .greenscreen .dark\:shadow-highlight,
+.greenscreen .shadow-lg, .greenscreen .dark\:shadow-lg,
+.greenscreen .shadow-mark, .greenscreen .dark\:shadow-mark,
+.greenscreen .shadow-md, .greenscreen .dark\:shadow-md,
+.greenscreen .shadow-none, .greenscreen .dark\:shadow-none,
+.greenscreen .shadow-sm, .greenscreen .dark\:shadow-sm,
+.greenscreen .shadow-text, .greenscreen .dark\:shadow-text,
+.greenscreen .shadow-xl, .greenscreen .dark\:shadow-xl {
+  box-shadow: none !important;
+} 
+
 .g-container {
   @apply max-w-6xl mx-auto px-4 md:px-12 overflow-x-hidden;
 }
@@ -226,6 +256,101 @@ body {
   }
 }
 
+.pksymbol {
+display: inline-block;
+}
+
+.pksymbol-type-electric-32px {
+  width: 15px;
+  height: 20px;
+  background-position: -53px 0px;
+}
+.pksymbol-type-fighting-32px {
+  width: 20px;
+  height: 16px;
+  background-position: -70px 0px;
+}
+.pksymbol-type-psychic-32px {
+  width: 18px;
+  height: 19px;
+  background-position: -92px 0px;
+}
+.pksymbol-type-water-32px {
+  width: 16px;
+  height: 21px;
+  background-position: -112px 0px;
+}
+.pksymbol-type-ground-32px {
+  width: 24px;
+  height: 15px;
+  background-position: -130px 0px;
+}
+.pksymbol-type-dark-32px {
+  width: 20px;
+  height: 20px;
+  background-position: -156px 0px;
+}
+.pksymbol-type-fire-32px {
+  width: 18px;
+  height: 23px;
+  background-position: -178px 0px;
+}
+.pksymbol-type-flying-32px {
+  width: 21px;
+  height: 19px;
+  background-position: -198px 0px;
+}
+.pksymbol-type-grass-32px {
+  width: 20px;
+  height: 20px;
+  background-position: -221px 0px;
+}
+.pksymbol-type-normal-32px {
+  width: 20px;
+  height: 20px;
+  background-position: -243px 0px;
+}
+.pksymbol-type-poison-32px {
+  width: 20px;
+  height: 20px;
+  background-position: -265px 0px;
+}
+.pksymbol-type-rock-32px {
+  width: 22px;
+  height: 18px;
+  background-position: -287px 0px;
+}
+.pksymbol-type-bug-32px {
+  width: 20px;
+  height: 22px;
+  background-position: -311px 0px;
+}
+.pksymbol-type-dragon-32px {
+  width: 20px;
+  height: 23px;
+  background-position: -333px 0px;
+}
+.pksymbol-type-ghost-32px {
+  width: 21px;
+  height: 21px;
+  background-position: -355px 0px;
+}
+.pksymbol-type-steel-32px {
+  width: 22px;
+  height: 20px;
+  background-position: -378px 0px;
+}
+.pksymbol-type-fairy-32px {
+  width: 22px;
+  height: 23px;
+  background-position: -496px 0px;
+}
+.pksymbol-type-ice-32px {
+  width: 24px;
+  height: 22px;
+  background-position: -546px 0px;
+}
+
 .dark svg.waves g.fill {
   fill: theme('colors.gray.800');
 }
@@ -242,4 +367,46 @@ svg.waves g.fill {
   .modal-positioning {
     justify-content: center !important;
   }
+}
+
+.error-modal {
+@apply bg-gray-100 text-gray-900 p-8 rounded-lg fixed top-1/2 left-1/2 pointer-events-auto;
+width: 340px;
+transform: translate(-50%, -50%);
+}
+
+.dark .error-modal {
+@apply bg-gray-800 text-gray-50;
+}
+
+.error-modal h2 {
+@apply font-bold text-3xl leading-8 pb-3;
+}
+
+.error-modal img {
+@apply -mt-20 scale-200 pb-3 mx-auto;
+image-rendering:pixelated;
+}
+
+.error-modal button {
+@apply transition w-full mt-5 py-2 border-2 font-bold border-gray-900 rounded-lg;
+}
+
+.dark .error-modal button {
+  @apply border-gray-50 bg-gray-900;
+}
+
+.error-modal button:hover {
+  @apply ring-2 ring-blue-400 border-blue-400 text-blue-600 bg-blue-100;
+}
+
+.dark .error-modal button:hover {
+  @apply ring-2 ring-blue-600 border-blue-600 text-blue-500 bg-gray-900;
+}
+
+.error-modal-container {
+@apply fixed inset-0 pointer-events-none;
+z-index: 99999999;
+background: rgba(0,0,0,0.5);
+backdrop-filter: blur(3px);
 }

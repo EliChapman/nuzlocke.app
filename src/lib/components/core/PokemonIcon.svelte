@@ -1,11 +1,15 @@
 <script>
-  export let name, className = '', type = 'm'
+  export let name = 'unknown-pokemon2',
+    className = '',
+    type = 'm'
 </script>
 
-<span class='pk{type}-wrapper {$$restProps.class || ''} {className}'>
+<span class="pk{type}-wrapper {$$restProps.class || ''} {className}">
   <i
-    class:pkm-sevii={name.includes('sevii')}
+    class:pkm-sevii={name?.includes('sevii')}
+    class:pkm-hoennian={name?.includes('-hoenn')}
     class:pkm-delta={name.includes('delta')}
-    class='pk{type} pk{type}-{name}' />
+    class="pk{type} pk{type}-{name}"
+  />
   <slot />
 </span>

@@ -1,120 +1,186 @@
 <script>
-  export let className = ''
-  import { activeGame, savedGames, parse } from '$lib/store'
+  import {
+    activeGame,
+    savedGames,
+    updateGame,
+    parse,
+    readdata,
+    getGameStore
+  } from '$lib/store'
   import { fade, fly } from 'svelte/transition'
+
+  import { browser } from '$app/environment'
   import { page } from '$app/stores'
 
-  let game = {}, games
-  activeGame.subscribe(id => {
-    savedGames.subscribe(parse(g => {
-      game = g[id]
-      games = Object.values(g).filter(i => i.id !== id)
-    }))
+  import { MiniTeamController } from '$c/TeamBuilder'
+
+  let game = {},
+    games
+  activeGame.subscribe((id) => {
+    savedGames.subscribe(
+      parse((g) => {
+        game = g[id]
+        games = Object.values(g).filter((i) => i.id !== id)
+      })
+    )
   })
 
-  const load = game => {
+  const load = (game) => {
     $activeGame = game.id
+    document.body.style = 'opacity: 0; transition: opacity: 0.2s'
     window.location.reload()
   }
 
-  import ThemeToggle from '$lib/components/theme-toggle.svelte'
-  import { Logo, Popover } from '$lib/components/core'
+  const reset = (_) => {
+    if (
+      !window.confirm(
+        "This will reset all data for this run, including your encounters, team & box. You cannot recover this data when it's reset. Are you sure?"
+      )
+    )
+      return
 
-  import Icon from '@iconify/svelte/dist/OfflineIcon.svelte'
-  import { Box, Save, Game, Grave, Caret, CaretRight } from '$icons'
+    const [, , id] = readdata()
+    const gameStore = getGameStore(id)
+
+    savedGames.update(
+      updateGame({
+        ...game,
+        attempts: +(game?.attempts || 1) + 1
+      })
+    )
+    gameStore.set('{}')
+  }
+
+  import ThemeToggle from '$lib/components/theme-toggle.svelte'
+  import { Icon, Logo, Button, Popover } from '$lib/components/core'
+  import { Box, Save, Game, Grave, Caret, CaretRight, Dots } from '$icons'
 
   const pages = [
     { name: 'Game', link: '/game', icon: Game },
     { name: 'Box', link: '/box', icon: Box },
-    { name: 'Grave', link: '/graveyard', icon: Grave },
+    { name: 'Grave', link: '/graveyard', icon: Grave }
   ]
 </script>
 
 <svelte:head>
-  <title> Nuzlocke | {game?.name || ''} </title>
+  <title>Nuzlocke | {game?.name || ''}</title>
 </svelte:head>
 
-<nav>
-  <div class=p-container>
-    <div class='inline-flex items-center'>
-      <a
-      href="/"
-      rel="external"
-      class='{className} home group'>
-      {#if game?.game}
-        <Logo
-          src=/assets/{game?.game}
-          class='h-7 w-auto my-1 md:mr-4 md:w-20 md:h-auto'
-          alt='{game?.game} logo'
-          aspect=192x96
-        />
-        <h1 in:fade class='hidden md:block group-hover:border-black dark:group-hover:border-white'>
-          {game?.name || ''}
-        </h1>
-      {/if}
-    </a>
+<nav class={$page.url.pathname.replace('/', '')}>
+  <div class="p-container">
+    <div class="inline-flex items-center">
+      <a href="/" rel="external" class="{$$restProps.class || ''} home group">
+        {#if game?.game}
+          <Logo
+            src="/assets/{game?.game}"
+            pictureClass="game--{game?.game}"
+            class="h-10 w-auto max-md:pt-2 sm:w-20 md:mr-4 md:h-auto"
+            alt="{game?.game} logo"
+            aspect="192x96"
+          />
 
-      {#if games.length}
-        <Popover className='mt-1 sm:mt-4' title='Load saves' position={window?.innerWidth < 700 ? 'bottom' : 'right'}>
-          <span class='inline-flex'>
-            <Icon inline={true} class='transition fill-current ml-2' icon={Save} />
-            <Icon inline={true} class='hidden sm:block transition fill-current -ml-0.5' icon={CaretRight} />
-            <Icon inline={true} class='block sm:hidden transition fill-current -ml-0.5' icon={Caret} />
+          <h1
+            in:fade
+            class="hidden group-hover:border-black dark:group-hover:border-white lg:block lg:line-clamp-1"
+            class:sm:text-xl={game?.name?.length <= 20}
+            class:sm:text-lg={game?.name?.length > 20}
+          >
+            {(game?.name || '').slice(0, 30)}{game?.name?.length > 30
+              ? '...'
+              : ''}
+          </h1>
+        {/if}
+      </a>
+
+      {#if browser}
+        <Popover
+          title="Load & manage game saves"
+          position={window?.innerWidth < 700 ? 'bottom' : 'right'}
+        >
+          <span class="inline-flex">
+            <Icon
+              inline={true}
+              class="ml-2 fill-current transition"
+              icon={Save}
+            />
+            <Icon
+              inline={true}
+              class="-ml-0.5 hidden fill-current transition sm:block"
+              icon={CaretRight}
+            />
+            <Icon
+              inline={true}
+              class="-ml-0.5 block fill-current transition sm:hidden"
+              icon={Caret}
+            />
           </span>
 
-          <ul in:fly={{ duration: 250, y: 50 }} out:fade={{ duration: 100 }} class='popover bg-white dark:bg-gray-900 rounded-xl shadow-lg w-60 mt-6 ml-4 sm:mt-4 sm:ml-2 flex flex-col divide-y dark:divide-gray-700 max-h-[80vh] overflow-scroll' slot=popover>
-            <strong class='bg-black sm:bg-gray-800 text-white dark:bg-black rounded-t-xl -mb-px z-50 py-3 px-4'>Load Game</strong>
+          <ul
+            in:fly={{ duration: 250, y: 50 }}
+            out:fade={{ duration: 100 }}
+            class="popover mt-6 ml-4 flex max-h-[80vh] w-60 flex-col divide-y overflow-scroll rounded-xl bg-white shadow-lg dark:divide-gray-700 dark:bg-gray-900 sm:mt-4 sm:ml-2"
+            slot="popover"
+          >
+            <strong
+              class="z-50 -mb-px rounded-t-xl bg-black py-3 px-4 text-white dark:bg-black sm:bg-gray-800"
+              >Games</strong
+            >
+
             {#each games as game}
               <button on:click={load(game)}>
                 <li
-                  class='px-4 py-2 text-gray-600 dark:text-gray-200 w-full text-sm cursor-pointer dark:hover:text-blue-500 hover:text-blue-400 inline-flex justify-between text-left items-center transition'
-                  title='Load game {game.name}'
-                  >
+                  class="inline-flex w-full cursor-pointer items-center justify-between px-4 py-2 text-left text-sm text-gray-600 transition hover:text-blue-400 dark:text-gray-200 dark:hover:text-blue-500"
+                  title="Load game {game.name}"
+                >
                   {game.name}
                   <Logo
-                    alt='{game.name} logo'
-                    src=/assets/{game.game}
-                    class='ml-2 w-16'
-                    aspect=192x96
+                    alt="{game.name} logo"
+                    src="/assets/{game.game}"
+                    class="ml-2 w-16"
+                    aspect="192x96"
                   />
                 </li>
-                </button>
+              </button>
             {/each}
+
+            <li class="px-4 py-3 text-center">
+              <Button on:click={reset} rounded solid class="w-full text-sm"
+                >New Attempt</Button
+              >
+              <p class="pt-2 text-xs italic leading-4 opacity-50">
+                Abandon your <b>{game?.name || ''}</b> run, reset all encounters
+                and start attempt {+(game?.attempts || 1) + 1}
+              </p>
+            </li>
           </ul>
         </Popover>
       {/if}
+    </div>
 
-  </div>
+    {#if $page.url.pathname !== '/graveyard'}<MiniTeamController />{/if}
 
-    <span class='inline-flex relative'>
+    <span class="relative inline-flex">
       <ThemeToggle />
 
       {#each pages as p}
         <a
-          class=link
+          class="link"
           class:active={p.link == $page.url.pathname}
           href={p.link}
-          >
+        >
           <Icon inline={true} icon={p.icon} />
           {p.name}
         </a>
       {/each}
-
-      <span id='sidenav_button' />
-
     </span>
   </div>
 </nav>
 
-<div class=fauxnav />
-
 <style lang="postcss">
-  .fauxnav { @apply h-12; }
-
   nav {
     position: fixed;
     z-index: 5000;
-    @apply container mx-auto mb-8 md:mb-2 bg-black sm:bg-white text-white sm:text-black;
+    @apply container mx-auto mb-8 bg-black text-white sm:bg-white sm:text-black md:mb-2;
   }
 
   nav :global(.p-container) {
@@ -122,29 +188,27 @@
   }
 
   :global(.dark) nav {
-    @apply sm:bg-gray-800
+    @apply sm:bg-gray-800;
   }
 
-  @media (min-width:theme('screens.sm')) {
-    .fauxnav { @apply h-16; }
+  @media (min-width: theme('screens.sm')) {
     nav {
       width: 100%;
       left: 0;
       right: 0;
     }
-    nav::after {
+
+    nav::before {
       content: '';
       background: linear-gradient(white 50%, transparent);
-      @apply absolute w-full -bottom-6 h-6;
+      @apply absolute -bottom-6 h-6 w-full;
     }
 
-    nav::after {
-      content: '';
-      background: linear-gradient(white 50%, transparent);
-      @apply absolute w-full -bottom-6 h-6;
+    nav.graveyard::before {
+      display: none;
     }
 
-    :global(.dark) nav::after {
+    :global(.dark) nav::before {
       background: linear-gradient(theme('colors.gray.800') 50%, transparent);
     }
   }
@@ -153,18 +217,58 @@
     @apply sm:text-gray-200;
   }
 
-  h1 { @apply text-base sm:text-xl border-transparent border-b-2 transition -mb-1.5 sm:mb-0; }
+  :global(.dark) nav.graveyard,
+  nav.graveyard {
+    @apply sm:bg-transparent;
+  }
 
-  a.home { @apply inline-flex items-center pt-4 ml-4 -mt-4 md:mt-0 md:-ml-2 h-12; }
-  a.link { @apply inline-flex items-center gap-x-1 border-black transition p-2 px-3 md:p-4 text-sm md:text-base; }
+  :global(.dark) nav.graveyard::after,
+  nav.graveyard::after {
+    @apply sm:hidden;
+  }
 
-  a.link.active { @apply border-b-2 bg-gray-50 text-black cursor-default; }
-  a.link:not(.active) { @apply sm:text-gray-500 hover:text-black  cursor-pointer; }
+  h1 {
+    @apply -mb-1.5 border-b-2 border-transparent text-base transition sm:mb-0;
+  }
 
-  :global(.dark) a.link:not(.active) { @apply hover:text-gray-100 text-gray-400; }
-  :global(.dark) a.link.active { @apply hover:text-gray-100 text-gray-50 bg-gray-900 border-b-gray-200; }
+  a.home {
+    @apply ml-4 -mt-4 inline-flex h-12 items-center md:mt-0 md:-ml-2;
+  }
+  a.link {
+    @apply inline-flex items-center gap-x-1 border-black p-2 px-3 text-sm transition md:p-4 md:text-base;
+  }
 
-  #sidenav_button {
-    @apply z-50 md:z-10 bottom-6 right-4 fixed md:absolute md:right-0 md:bottom-auto md:top-1/2 md:-translate-y-1/2 md:translate-x-full flex items-center justify-center;
+  a.link.active {
+    @apply cursor-default border-b-2 bg-gray-50 text-black;
+  }
+  a.link:not(.active) {
+    @apply cursor-pointer hover:text-black  sm:text-gray-500;
+  }
+
+  :global(.dark) a.link:not(.active) {
+    @apply text-gray-400 hover:text-gray-100;
+  }
+  :global(.dark) a.link.active {
+    @apply border-b-gray-200 bg-gray-900 text-gray-50 hover:text-gray-100;
+  }
+
+  :global(.game--sw),
+  :global(.game--sh) {
+    @apply -mr-4 -ml-4;
+  }
+
+  :global(.game--emkaizo) {
+    @apply -mr-2 -ml-2;
+  }
+
+  @media (min-width: theme('screens.md')) {
+    :global(.game--sw),
+    :global(.game--sh) {
+      @apply -mr-6 ml-0;
+    }
+
+    :global(.game--emkaizo) {
+      @apply -mr-2 ml-0;
+    }
   }
 </style>

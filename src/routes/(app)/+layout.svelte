@@ -24,6 +24,7 @@
 
     if (id === 'blazingem') deferStyles('/assets/pokemon-blazingem.css')
     if (id?.includes('radred')) deferStyles('/assets/pokemon-radicalred.css')
+    if (id?.includes('insurgence')) deferStyles('/assets/insurgence.css')
     if (browser) setTimeout(() => document.body.classList.add('lazy-pkm'), 0)
   })
 

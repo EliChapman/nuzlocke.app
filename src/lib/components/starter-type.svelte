@@ -41,6 +41,15 @@
     ]
   }
 
+  if (key.startsWith('insurgence')) {
+    starters = [
+      { col: 'fairy', name: 'bulb', picon: 'delta-bulbasaur' },
+      { col: 'ghost', name: 'char', picon: 'delta-charmander' },
+      { col: 'dark', name: 'squirt', picon: 'delta-squirtle' },
+      { col: 'normal', name: 'eevee', picon: 'eevee' }
+    ]
+  }
+
   const dispatch = createEventDispatcher()
   const setstarter = (value) => (_) => dispatch('select', { value })
 </script>

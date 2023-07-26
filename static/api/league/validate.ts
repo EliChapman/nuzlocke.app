@@ -23,7 +23,8 @@ const types = [
   'rock',
   'psychic',
   'bug',
-  '???'
+  '???',
+  'crystal'
 ]
 
 const Type = z.enum(types)

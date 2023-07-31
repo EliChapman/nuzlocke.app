@@ -26,13 +26,16 @@
     isGym,
     isStarter,
     isCustom,
+    isGymChoice,
 
     showStarterRoute,
     showRoute,
     showGym,
-    showCustom
+    showCustom,
+    showGymChoice
   } from './_predicates'
   import { filterEntry } from './_filters'
+    import GymChoice from '../gym-choice.svelte'
 
   export let route,
     game,
@@ -209,6 +212,23 @@
           defeated={bossTeamIds.includes(p.value)}
           location={p.name}
           type={p.group}
+        />
+      </li>
+    {:else if isGymChoice(p)}
+      <li
+        class="boss-choice -mb-4 md:my-2"
+        class:hidden={hidden || !showGymChoice(p, filters)}
+        id="boss-choice-{id}"
+        in:fade
+        out:fade={{ duration: 100 }}
+      >
+        <GymChoice 
+          {store}
+          forceVs
+          {starter}
+          game={key}
+          location={p.name}
+          gyms={p.choices}
         />
       </li>
     {/if}

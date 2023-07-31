@@ -94,6 +94,12 @@
     width: 14px
 }
 
+.pkitem-charizardite-y {
+    background-position: -267px -30px;
+    height: 14px;
+    width: 14px;
+}
+
 .pkitem-chesto-berry {
     background-position: -336px -222px;
     height: 19px;
@@ -404,6 +410,12 @@
     background-position: -397px -130px;
     height: 16px;
     width: 16px
+}
+
+.pkitem-venusaurite {
+    background-position: -65px -69px;
+    height: 14px;
+    width: 14px;
 }
 
 .pkitem-wacan-berry {

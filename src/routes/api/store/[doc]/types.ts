@@ -19,7 +19,8 @@ const EBossType = z.enum([
   'elite-four',
   'evil-team',
   'rival',
-  'mini-boss'
+  'mini-boss',
+  'gym-choice'
 ])
 
 const IGame = z.object({

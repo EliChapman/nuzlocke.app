@@ -1,4 +1,4 @@
-const TYPES = { ROUTE: 'route', GYM: 'gym', CUSTOM: 'custom' }
+const TYPES = { ROUTE: 'route', GYM: 'gym', CUSTOM: 'custom', GYMCHOICE: 'gym-choice' }
 const STARTER_ID = 'starter'
 
 /**
@@ -39,6 +39,7 @@ export const isStarter = (route) => {
 export const isRoute = (route) => route.type === TYPES.ROUTE
 export const isCustom = (route) => route.type === TYPES.CUSTOM
 export const isGym = (route) => route.type === TYPES.GYM
+export const isGymChoice = (route) => route.type === TYPES.GYMCHOICE
 
 /**
  * Predicate to say whether route data is
@@ -76,6 +77,17 @@ export const showCustom = (route, filters, hideRoute = (_) => false) => {
 
 export const showGym = (route, filters, hideRoute = (_) => false) => {
   const { type, group } = route
+  return (
+    type === TYPES.GYM &&
+    GYM_FILTERS.includes(filters.main) &&
+    (filters.main === 'nuzlocke' ||
+      filters.boss === 'all' ||
+      filters.boss === group)
+  )
+}
+
+export const showGymChoice = (route, filters, hideRoute = (_) => false) => {
+  const { type, group } = route.choices[0]
   return (
     type === TYPES.GYM &&
     GYM_FILTERS.includes(filters.main) &&

@@ -7,7 +7,9 @@
     forceLevelCap = false,
     forceVs = false,
     defeated = false,
-    reader = false
+    reader = false,
+    choice = false,
+    resetFunction = (id) => {console.log(id)}
 
   // Core leaader data
   let pokemon = [],
@@ -38,6 +40,7 @@
 
   import { Loop as Badge, Ball, Info } from '$icons'
   import { Vs } from '$lib/components/BossBattle'
+  import { Change } from '$lib/components/BossBattle'
 
   import Effect from '$lib/components/Effect.svelte'
 
@@ -57,6 +60,7 @@
     loadmodal().then((modal) => open(modal, { boss, mode: 'compare', id }))
   const openBuilder = () =>
     loadmodal().then((modal) => open(modal, { boss, mode: 'build' }))
+  const changeBattle = () => resetFunction(location + " Opponent")
 
   export let loading = true
 
@@ -244,6 +248,20 @@
                 class="bg-white dark:bg-gray-800"
               />
             </IconButton>
+          {/if}
+
+          {#if choice}
+            <IconButton
+              on:click={changeBattle}
+              title="Choose a different fight"
+              class="h-12 pl-0.5 md:mt-1"
+              rounded
+            >
+              <Change
+                containerClass="translate-y-3 scale-90"
+                class="bg-white dark:bg-gray-800"
+              />
+          </IconButton>
           {/if}
         {/if}
       </div>

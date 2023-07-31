@@ -1351,11 +1351,10 @@
         "level": "41",
         "moves": [
           {
-            "name": "Leech Life",
-            "type": "bug",
-            "damage_class": "physical",
-            "power": 80,
-            "effect": "Drains half the damage inflicted to heal the user."
+            "name": "Leech Seed",
+            "type": "grass",
+            "damage_class": "status",
+            "effect": "Seeds the target, stealing HP from it every turn."
           },
           {
             "name": "Magical Leaf",
@@ -2227,6 +2226,513 @@
           "spd": 63,
           "spe": 65
         }
+      }
+    ]
+  },
+  "rn3_e": {
+    "name": "Nora",
+    "img": {
+      "src": "https://wiki.p-insurgence.com/images/f/f0/Nora",
+      "author": "KingKoalah",
+      "link": "https://wiki.p-insurgence.com/File:Nora.png"
+    },
+    "pokemon": [
+      {
+        "name": "doublade",
+        "level": "48",
+        "moves": [
+          {
+            "name": "Iron Defense",
+            "type": "steel",
+            "damage_class": "status",
+            "effect": "Raises the user's Defense by two stages."
+          },
+          {
+            "name": "Night Slash",
+            "power": 70,
+            "type": "dark",
+            "damage_class": "physical",
+            "effect": "Has an increased chance for a critical hit."
+          },
+          {
+            "name": "Power Trick",
+            "type": "psychic",
+            "damage_class": "status",
+            "effect": "Swaps the user's Attack and Defense stats."
+          },
+          {
+            "name": "Iron Head",
+            "type": "steel",
+            "damage_class": "physical",
+            "power": 80,
+            "effect": "Has a 30% chance to make the target flinch."
+          }
+        ],
+        "ability": {
+          "name": "No Guard",
+          "effect": "All moves by or against the user will never miss."
+        },
+        "sprite": "680",
+        "types": [
+          "steel",
+          "ghost"
+        ],
+        "stats": {
+          "hp": 59,
+          "atk": 110,
+          "def": 150,
+          "spa": 45,
+          "spd": 49,
+          "spe": 35
+        }
+      },
+      {
+        "name": "floette",
+        "level": "48",
+        "moves": [
+          {
+            "name": "Petal Blizzard",
+            "type": "grass",
+            "damage_class": "physical",
+            "power": 90
+          },
+          {
+            "type": "grass",
+            "damage_class": "status",
+            "name": "Aromatherapy",
+            "effect": "Cures the entire party of major status effects."
+          },
+          {
+            "type": "fairy",
+            "damage_class": "status",
+            "name": "Misty Terrain",
+            "effect": "For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming dragon moves."
+          },
+          {
+            "name": "Moonblast",
+            "type": "fairy",
+            "damage_class": "special",
+            "power": 95,
+            "effect": "Has a 30% chance to lower the target's Special Attack by one stage."
+          }
+        ],
+        "ability": {
+          "name": "Flower Veil",
+          "effect": "Prevents the stats of all Grass-type allies from being lowered."
+        },
+        "sprite": "670",
+        "types": [
+          "fairy"
+        ],
+        "stats": {
+          "hp": 54,
+          "atk": 45,
+          "def": 47,
+          "spa": 75,
+          "spd": 98,
+          "spe": 52
+        }
+      },
+      {
+        "name": "leavanny",
+        "level": "48",
+        "moves": [
+          {
+            "name": "Leaf Blade",
+            "type": "grass",
+            "damage_class": "physical",
+            "power": 90,
+            "effect": "Has an increased chance for a critical hit."
+          },
+          {
+            "name": "X-Scissor",
+            "power": 90,
+            "type": "bug",
+            "damage_class": "physical"
+          },
+          {
+            "name": "Entrainment",
+            "type": "normal",
+            "damage_class": "status",
+            "effect": "Changes the target's Ability to match the user's."
+          },
+          {
+            "name": "Swords Dance",
+            "type": "normal",
+            "damage_class": "status",
+            "effect": "Raises the user's Attack by two stages."
+          }
+        ],
+        "sprite": "542",
+        "types": [
+          "bug",
+          "grass"
+        ],
+        "stats": {
+          "hp": 75,
+          "atk": 103,
+          "def": 80,
+          "spa": 70,
+          "spd": 80,
+          "spe": 92
+        }
+      },
+      {
+        "name": "celebi",
+        "level": "48",
+        "moves": [
+          {
+            "name": "Magical Leaf",
+            "type": "grass",
+            "damage_class": "special",
+            "power": 60,
+            "effect": "Never misses."
+          },
+          {
+            "name": "Ancient Power",
+            "type": "rock",
+            "damage_class": "special",
+            "power": 60,
+            "effect": "Has a 10% chance to raise all of the user's stats by one stage."
+          },
+          {
+            "name": "Baton Pass",
+            "type": "normal",
+            "damage_class": "status",
+            "effect": "Allows the trainer to switch out the user and pass effects along to its replacement."
+          },
+          {
+            "name": "Natural Gift",
+            "type": "normal",
+            "damage_class": "physical",
+            "effect": "Consumes the user's held berry, changing the power and type."
+          }
+
+        ],
+        "ability": {
+          "name": "Natural Cure",
+          "effect": "Cures any major status ailment upon switching out."
+        },
+        "sprite": "251",
+        "types": [
+          "psychic",
+          "grass"
+        ],
+        "stats": {
+          "hp": 100,
+          "atk": 100,
+          "def": 100,
+          "spa": 100,
+          "spd": 100,
+          "spe": 100
+        }
+      },
+      {
+        "name": "flygon-mega",
+        "level": "48",
+        "moves": [
+          {
+            "name": "Hyper Beam",
+            "type": "normal",
+            "damage_class": "physical",
+            "power": 150,
+            "effect": "User foregoes its next turn to recharge."
+          },
+          {
+            "power": 80,
+            "type": "dragon",
+            "damage_class": "physical",
+            "name": "Dragon Claw"
+          },
+          {
+            "name": "Dragon Rush",
+            "type": "dragon",
+            "damage_class": "physical",
+            "power": 100,
+            "effect": "Has a 20% chance to make the target flinch."
+          },
+          {
+            "name": "Uproar",
+            "type": "normal",
+            "damage_class": "special",
+            "power": 90,
+            "effect": "Forced to use this move for several turns.  Pokémon cannot fall asleep in that time."
+          }
+        ],
+        "ability": {
+          "name": "Amplifier",
+          "effect": "Sound-based moves are boosted by 1.25x."
+        },
+        "held": {
+          "sprite": "sceptilite",
+          "name": "Flygonite",
+          "effect": "Allows Flygon to Mega Evolve into Mega Flygon."
+        },
+        "sprite": "330",
+        "types": [
+          "bug",
+          "dragon"
+        ],
+        "stats": {
+          "hp": 80,
+          "atk": 110,
+          "def": 90,
+          "spa": 140,
+          "spd": 80,
+          "spe": 120
+        },
+        "icon": "flygon"
+      }
+    ]
+  },
+  "rd3_e": {
+    "name": "Damian",
+    "img": {
+      "src": "https://wiki.p-insurgence.com/images/c/c5/Damian_1",
+      "author": "1ofthe4rocketbros",
+      "link": "https://wiki.p-insurgence.com/File:Damian_1.png"
+    },
+    "pokemon": [
+      {
+        "name": "crawdaunt",
+        "level": "48",
+        "moves": [
+          {
+            "name": "Taunt",
+            "type": "dark",
+            "damage_class": "status",
+            "effect": "For the next few turns, the target can only use damaging moves."
+          },
+          {
+            "name": "Swords Dance",
+            "type": "normal",
+            "damage_class": "status",
+            "effect": "Raises the user's Attack by two stages."
+          },
+          {
+            "name": "Crunch",
+            "type": "dark",
+            "damage_class": "physical",
+            "power": 80,
+            "effect": "Has a 20% chance to lower the target's Defense by one stage."
+          },
+          {
+            "name": "Crabhammer",
+            "type": "water",
+            "damage_class": "physical",
+            "power": 100,
+            "effect": "Has an increased chance for a critical hit."
+          }
+        ],
+        "sprite": "342",
+        "types": [
+          "water",
+          "dark"
+        ],
+        "stats": {
+          "hp": 63,
+          "atk": 120,
+          "def": 85,
+          "spa": 90,
+          "spd": 55,
+          "spe": 55
+        }
+      },
+      {
+        "name": "metang",
+        "level": "48",
+        "moves": [
+          {
+            "name": "Psychic",
+            "type": "psychic",
+            "damage_class": "special",
+            "power": 90,
+            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+          },
+          {
+            "name": "Agility",
+            "type": "psychic",
+            "damage_class": "status",
+            "effect": "Raises the user's Speed by two stages."
+          },
+          {
+            "name": "Meteor Mash",
+            "type": "steel",
+            "damage_class": "physical",
+            "power": 90,
+            "effect": "Has a 20% chance to raise the user's Attack by one stage."
+          },
+          {
+            "name": "Iron Defense",
+            "type": "steel",
+            "damage_class": "status",
+            "effect": "Raises the user's Defense by two stages."
+          }
+        ],
+        "ability": {
+          "name": "Clear Body",
+          "effect": "Prevents stats from being lowered by other Pokémon."
+        },
+        "sprite": "375",
+        "types": [
+          "steel",
+          "psychic"
+        ],
+        "stats": {
+          "hp": 60,
+          "atk": 75,
+          "def": 100,
+          "spa": 55,
+          "spd": 80,
+          "spe": 50
+        }
+      },
+      {
+        "name": "luxray",
+        "level": "48",
+        "moves": [
+          {
+            "name": "Swagger",
+            "type": "normal",
+            "damage_class": "status",
+            "effect": "Raises the target's Attack by two stages and confuses the target."
+          },
+          {
+            "name": "Thunder Fang",
+            "type": "electric",
+            "damage_class": "physical",
+            "power": 65,
+            "effect": "Has a 10% chance to paralyze the target and a $effect_chance% chance to make the target flinch."
+          },
+          {
+            "name": "Crunch",
+            "type": "dark",
+            "damage_class": "physical",
+            "power": 80,
+            "effect": "Has a 20% chance to lower the target's Defense by one stage."
+          },
+          {
+            "name": "Roar",
+            "priority": -6,
+            "type": "normal",
+            "damage_class": "status",
+            "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon."
+          }
+        ],
+        "sprite": "405",
+        "types": [
+          "electric"
+        ],
+        "stats": {
+          "hp": 80,
+          "atk": 120,
+          "def": 79,
+          "spa": 95,
+          "spd": 79,
+          "spe": 70
+        }
+      },
+      {
+        "name": "shaymin",
+        "level": "48",
+        "moves": [
+          {
+            "name": "Leech Seed",
+            "type": "grass",
+            "damage_class": "status",
+            "effect": "Seeds the target, stealing HP from it every turn."
+          },
+          {
+            "name": "Natural Gift",
+            "type": "normal",
+            "damage_class": "physical",
+            "effect": "Consumes the user's held berry, changing the power and type."
+          },
+          {
+            "name": "Sweet Scent",
+            "type": "normal",
+            "damage_class": "status",
+            "effect": "Lowers the target's evasion by one stage."
+          },
+          {
+            "name": "Synthesis",
+            "type": "grass",
+            "damage_class": "status",
+            "effect": "Heals the user by half its max HP.  Affected by weather."
+          }
+        ],
+        "ability": {
+          "name": "Natural Cure",
+          "effect": "Cures any major status ailment upon switching out."
+        },
+        "sprite": "492",
+        "types": [
+          "grass"
+        ],
+        "stats": {
+          "hp": 100,
+          "atk": 100,
+          "def": 100,
+          "spa": 100,
+          "spd": 100,
+          "spe": 100
+        }
+      },
+      {
+        "name": "eevee-mega",
+        "level": "48",
+        "moves": [
+          {
+            "name": "Flare Blitz",
+            "type": "fire",
+            "damage_class": "physical",
+            "power": 120,
+            "effect": "User takes 1/3 the damage inflicted in recoil.  Has a 10% chance to burn the target."
+          },
+          {
+            "name": "Ice Beam",
+            "type": "ice",
+            "damage_class": "special",
+            "power": 90,
+            "effect": "Has a 10% chance to freeze the target."
+          },
+          {
+            "name": "Thunderbolt",
+            "type": "electric",
+            "damage_class": "special",
+            "power": 90,
+            "effect": "Has a 10% chance to paralyze the target."
+          },
+          {
+            "name": "Leaf Blade",
+            "type": "grass",
+            "damage_class": "physical",
+            "power": 90,
+            "effect": "Has an increased chance for a critical hit."
+          }
+        ],
+        "ability": {
+          "name": "Protean Maxima",
+          "effect": "The Pokemon transforms into the eevolution corresponding to the type of move used, changing form, stats, and ability."
+        },
+        "held": {
+          "name": "Eevite",
+          "sprite": "gyaradosite",
+          "effect": "Allows Eevee to Mega Evolve into Mega Eevee."
+        },
+        "sprite": "133",
+        "types": [
+          "normal"
+        ],
+        "stats": {
+          "hp": 83,
+          "atk": 83,
+          "def": 83,
+          "spa": 83,
+          "spd": 83,
+          "spe": 83
+        },
+        "icon": "eevee"
       }
     ]
   }

@@ -932,6 +932,217 @@
           ]
         }
       ]
+    },
+    "rn3_e": {
+      "name": "Nora",
+      "img": {
+        "src": "https://wiki.p-insurgence.com/images/f/f0/Nora",
+        "author": "KingKoalah",
+        "link": "https://wiki.p-insurgence.com/File:Nora.png"
+      },
+      "pokemon": [
+        {
+          "name": "doublade",
+          "level": "48",
+          "moves": [
+            "iron-defense",
+            "night-slash",
+            "power-trick",
+            "iron-head"
+          ],
+          "ability": "no-guard",
+          "abilities": [
+            "no-guard"
+          ]
+        },
+        {
+          "name": "floette",
+          "level": "48",
+          "moves": [
+            "petal-blizzard",
+            "aromatherapy",
+            "misty-terrain",
+            "moonblast"
+          ],
+          "ability": "flower-veil",
+          "abilities": [
+            "flower-veil"
+          ]
+        },
+        {
+          "name": "leavanny",
+          "level": "48",
+          "moves": [
+            "leaf-blade",
+            "x-scissor",
+            "entrainment",
+            "swords-dance"
+          ],
+          "ability": "swarm",
+          "abilities": [
+            "swarm",
+            "chlorophyll"
+          ]
+        },
+        {
+          "name": "celebi",
+          "level": "48",
+          "moves": [
+            "magical-leaf",
+            "ancient-power",
+            "baton-pass",
+            "natural-gift"
+          ],
+          "ability": "natural-cure",
+          "abilities": [
+            "natural-cure"
+          ]
+        },
+        {
+          "name": "flygon",
+          "level": "48",
+          "moves": [
+            "hyper-beam",
+            "dragon-claw",
+            "dragon-rush",
+            "uproar"
+          ],
+          "ability": "levitate",
+          "abilities": [
+            "levitate"
+          ],
+          "held": "flygonite"
+        }
+      ]
+    },
+    "rd3_e": {
+      "name": "Damian",
+      "img": {
+        "src": "https://wiki.p-insurgence.com/images/c/c5/Damian_1",
+        "author": "1ofthe4rocketbros",
+        "link": "https://wiki.p-insurgence.com/File:Damian_1.png"
+      },
+      "pokemon": [
+        {
+          "name": "crawdaunt",
+          "level": "48",
+          "moves": [
+            "razor-shell",
+            "swift",
+            "taunt",
+            "swords-dance"
+          ],
+          "ability": "hyper-cutter",
+          "abilities": [
+            "hyper-cutter",
+            "shell-armor"
+          ]
+        },
+        {
+          "name": "delta-charizard",
+          "level": "41",
+          "moves": [
+            "dragon-dance",
+            "shadow-ball",
+            "dragon-breath",
+            "screech"
+          ],
+          "ability": "spirit-call",
+          "abilities": [
+            "spirit-call"
+          ],
+          "starter": "bulb"
+        },
+        {
+          "name": "delta-blastoise",
+          "level": "41",
+          "moves": [
+            "shadow-sneak",
+            "dark-pulse",
+            "aura-sphere",
+            "protect"
+          ],
+          "ability": "shadow-call",
+          "abilities": [
+            "shadow-call"
+          ],
+          "starter": "char"
+        },
+        {
+          "name": "delta-venusaur",
+          "level": "41",
+          "moves": [
+            "sweet-scent",
+            "calm-mind",
+            "disarming-voice",
+            "psychic"
+          ],
+          "ability": "psycho-call",
+          "abilities": [
+            "psycho-call"
+          ],
+          "starter": "squirt"
+        },
+        {
+          "name": "eevee",
+          "level": "41",
+          "moves": [
+            "double-edge",
+            "charm",
+            "baton-pass",
+            "last-resort"
+          ],
+          "ability": "adaptability",
+          "abilities": [
+            "adaptability",
+            "run-away"
+          ],
+          "starter": "eevee"
+        },
+        {
+          "name": "luxray",
+          "level": "42",
+          "moves": [
+            "crunch",
+            "swagger",
+            "roar",
+            "thunder-fang"
+          ],
+          "ability": "intimidate",
+          "abilities": [
+            "intimidate",
+            "rivalry"
+          ]
+        },
+        {
+          "name": "metang",
+          "level": "42",
+          "moves": [
+            "agility",
+            "zen-headbutt",
+            "psychic",
+            "scary-face"
+          ],
+          "ability": "clear-body",
+          "abilities": [
+            "clear-body"
+          ]
+        },
+        {
+          "name": "shaymin",
+          "level": "41",
+          "moves": [
+            "leech-seed",
+            "magical-leaf",
+            "sweet-scent",
+            "synthesis"
+          ],
+          "ability": "natural-cure",
+          "abilities": [
+            "natural-cure"
+          ]
+        }
+      ]
     }
   },
   "b2w2": {

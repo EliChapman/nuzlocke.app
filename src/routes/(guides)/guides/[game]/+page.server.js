@@ -144,6 +144,9 @@ export async function load({ params, url, fetch }) {
       }
     }, {})
 
+  const gym_choices = route
+    .filter((r) => r.type === 'gym-choice')
+
   return {
     html,
     attributes,
@@ -153,6 +156,7 @@ export async function load({ params, url, fetch }) {
     route: {
       routes,
       gyms,
+      gym_choices,
       count: encounters.length,
       encounters: encounterdata,
       encounterMap

@@ -812,6 +812,45 @@
     },
     {
       "type": "route",
+      "name": "Misty Way",
+      "encounters": [
+        "psyduck",
+        "horsea",
+        "gyarados",
+        "quagsire",
+        "girafarig",
+        "wailmer",
+        "wailord",
+        "swablu",
+        "altaria",
+        "corphish",
+        "castform",
+        "spheal",
+        "mime-jr.",
+        "lumineon",
+        "palpitoad",
+        "frillish"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Mist Island",
+      "encounters": [
+        "psyduck",
+        "horsea",
+        "gyarados",
+        "wailmer",
+        "wailord",
+        "corphish",
+        "spheal",
+        "latias",
+        "lumineon",
+        "palpitoad",
+        "frillish"
+      ]
+    },
+    {
+      "type": "route",
       "name": "Route 5",
       "encounters": [
         "seadra",
@@ -1122,6 +1161,24 @@
         "lumineon",
         "drilbur",
         "swanna"
+      ]
+    },
+    {
+      "type": "gym-choice",
+      "name": "Utira Town",
+      "choices": [
+        {
+          "type": "gym",
+          "value": "rn3_e",
+          "group": "rival",
+          "boss": "Nora"
+        },
+        {
+          "type": "gym",
+          "value": "rd3_e",
+          "group": "rival",
+          "boss": "Damian"
+        }
       ]
     },
     {

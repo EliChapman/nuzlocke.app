@@ -80,7 +80,7 @@
             {/if}
           </p>
 
-          {regionise(capitalise(name))}
+          {capitalise(regionise(name))}
 
           {#if held}
             <div

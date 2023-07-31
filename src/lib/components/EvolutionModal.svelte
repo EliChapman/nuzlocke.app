@@ -20,7 +20,7 @@
 <section
   class="mx-auto flex flex-col items-center rounded-lg bg-gray-50 p-8 pb-12 shadow-lg dark:bg-gray-900 dark:text-gray-200"
 >
-  <span><strong>{capitalise(base)}</strong> is evolving!</span>
+  <span><strong>{capitalise(regionise(base))}</strong> is evolving!</span>
 
   <span class="relative mb-8 mt-2 text-base">
     <Icon
@@ -50,10 +50,10 @@
     {#each evolutions as e}
       <div class="group text-center">
         <button
-          title="Evolve {regionise(capitalise(base))} into {capitalise(
+          title="Evolve {capitalise(regionise(base))} into {capitalise(
             regionise(e)
           )}"
-          aria-label="Evolve {regionise(capitalise(base))} into {capitalise(
+          aria-label="Evolve {capitalise(regionise(base))} into {capitalise(
             regionise(e)
           )}"
           on:click={handleSelect(e)}
@@ -64,7 +64,7 @@
           />
         </button>
         <p class="mt-4 w-full text-center text-xs italic">
-          {regionise(capitalise(e))}
+          {capitalise(regionise(e))}
         </p>
       </div>
     {/each}

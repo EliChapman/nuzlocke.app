@@ -26,8 +26,7 @@ export const typeAdvantages: AdvantageMap = {
   dragon: { 0.5: ['steel'], 0: ['fairy'], 2: ['dragon'] },
   dark: { 0.5: ['fighting', 'dark', 'fairy'], 2: ['psychic', 'ghost'] },
   bug: {0.5: ['fire', 'fighting', 'poison', 'flying', 'ghost', 'steel', 'fairy'], 2: ['grass', 'psychic', 'dark']},
-  psychic: { 0.5: ['psychic', 'steel'], 0: ['dark'], 2: ['fighting', 'poison'] },
-  crystal: {}
+  psychic: { 0.5: ['psychic', 'steel'], 0: ['dark'], 2: ['fighting', 'poison'] }
 }
 
 export const typeAdvMap = Object.entries(typeAdvantages).reduce(

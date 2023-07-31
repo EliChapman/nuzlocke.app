@@ -16,7 +16,7 @@
 
     return (
       (nickname ? nickname + ' the ' : '') +
-      regionise(capitalise(poke.original.pokemon))
+      capitalise(regionise(poke.original.pokemon))
     )
   }
 

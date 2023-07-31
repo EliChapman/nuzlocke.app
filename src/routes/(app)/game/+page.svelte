@@ -26,6 +26,9 @@
     parse
   } from '$lib/store'
 
+  // Temporary solution until server can be updated to include the item css data for the difficulties of insurgence
+  import './insurgence_e.css'
+
   let gameStore, gameKey, gameData
   let routeEl
 

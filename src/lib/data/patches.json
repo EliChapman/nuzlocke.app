@@ -8899,6 +8899,102 @@
       "absolution": {
         "name": "Absolution",
         "effect": "During intense darkness, Absolution increases the Pokémon's Special Attack by 50 percent, but the Pokémon loses 1/8 of its maximum HP at the end of each turn."
+      },
+      "venomous": {
+        "name": "Venomous",
+        "effect": "A Pokémon with Venomous always causes bad poison instead of regular poison."
+      },
+      "hubris": {
+        "name": "Hurbis",
+        "effect": "Raises Special Attack one stage upon KOing a Pokémon."
+      },
+      "amplifier": {
+        "name": "Amplifier",
+        "effect": "Sound-based moves are boosted by 1.25x."
+      },
+      "heliophobia": {
+        "name": "Heliophobia",
+        "effect": "Heliophobia heals the Pokemon by 1/8 of its maximum HP during intense darkness, but has the opposite effect under harsh sunlight."
+      },
+      "winter-joy": {
+        "name": "Winter Joy",
+        "effect": "Increases the Pokemon's Attack and Special Attack by 40% during winter and decreases them by 30% during summer."
+      },
+      "athenian": {
+        "name": "Athenian",
+        "effect": "Doubles Special Attack in battle."
+      },
+      "supercell": {
+        "name": "Supercell",
+        "effect": "During intense darkness or rain, Supercell increases the Special Attack stat of the Pokémon with this Ability by 1.5×."
+      },
+      "foundry": {
+        "name": "Foundry",
+        "effect": "Rock-type moves become Fire-type and receive a 30% damage boost."
+      },
+      "vampiric": {
+        "name": "Vampiric",
+        "effect": "Vampiric allows the user to regain 25% of the damage inflicted when using a contact move."
+      },
+      "wind-force": {
+        "name": "Wind Force",
+        "effect": "Absorbs Flying moves, raising Speed by one stage."
+      },
+      "spectral-jaws": {
+        "name": "Spectral Jaws",
+        "effect": "Causes all biting moves to become Special and recieve a 30% damage boost."
+      },
+      "protean-maxima": {
+        "name": "Protean Maxima",
+        "effect": "The Pokemon transforms into the eevolution corresponding to the type of move used, changing form, stats, and ability."
+      },
+      "shadow-synergy": {
+        "name": "Shadow Synergy",
+        "effect": "Boosts the power of Dark-type moves by 50%."
+      },
+      "unleafed": {
+        "name": "Unleafed",
+        "effect": "Raises all of the user's stats by one stage for X + 1 turns, where X is the number of fainted Pokemon in the party."
+      },
+      "vaporization": {
+        "name": "Vaporization",
+        "effect": "Causes Water-type moves to fail, and damages Water-type Pokemon to take 1/8 of their max HP as damage per turn."
+      },
+      "irrelephant": {
+        "name": "Irrelephant",
+        "effect": "Ignores type-based immunities."
+      },
+      "pendulum": {
+        "name": "Pendulum",
+        "effect": "Boosts the power of moves used consecutively by 20%, to a maximum of 100%."
+      },
+      "prism-guard": {
+        "name": "Prism Guard",
+        "effect": "When a Pokemon with Prism Guard is hit with a non-contact move, the attacker takes damage equal to 1/8 of its own HP."
+      },
+      "periodic-orbit": {
+        "name": "Periodic Orbit",
+        "effect": "Causes Doom Desire and Future Sight to activate two and five turns after being originally used, and Wish to activate 1 and 3 turns after being used."
+      },
+      "ethereal-shroud": {
+        "name": "Ethereal Shroud",
+        "effect": "Causes the user to gain ghost-type immunities and resistances."
+      },
+      "speed-swap": {
+        "name": "Speed Swap",
+        "effect": "Activates Trick Room upon entering the battlefield."
+      },
+      "sleet": {
+        "name": "Sleet",
+        "effect": "Summons hail, and increases the damage to 20% of the affected pokemon's max HP."
+      },
+      "lernean": {
+        "name": "Lernean",
+        "effect": "The Pokemon grows heads as their HP decreases, at a threshold of 80%, 60%, 40%, and 20%. The user's damaging moves' power is split among these heads, and recieves a slight damage boost."
+      },
+      "chlorofury": {
+        "name": "Chlorofury",
+        "effect": "Raises Speed and Special Attack upon entering battle by one stage for each fainted Pokemon in the party."
       }
     },
     "item": {
@@ -13476,6 +13572,1195 @@
         "total": 600,
         "evoline": "delta-hoopa                                                        ",
         "imgUrl": "/insurgence/delta-hoopa"
+      },
+      "armored-fly": {
+        "name": "Armored Flygon",
+        "label": "Armored Flygon",
+        "alias": "armored-flygon",
+        "sprite": "330",
+        "types": [
+          "ground",
+          "dragon"
+        ],
+        "baseStats": {
+          "hp": 80,
+          "atk": 100,
+          "def": 104,
+          "spa": 80,
+          "spd": 104,
+          "spe": 100
+        },
+        "total": 568,
+        "evoline": "trapinch"
+      },
+      "armored-mewtwo": {
+        "name": "Armored Mewtwo",
+        "label": "Armored Mewtwo",
+        "alias": "armored-mewtwo",
+        "sprite": "armored-mewtwo",
+        "types": [
+          "psychic"
+        ],
+        "baseStats": {
+          "hp": 106,
+          "atk": 110,
+          "def": 90,
+          "spa": 154,
+          "spd": 90,
+          "spe": 130
+        },
+        "total": 680,
+        "imgUrl": "/blazingem/armored-mewtwo",
+        "evoline": "mewtwo"
+      },
+      "shadow-mewtwo": {
+        "name": "Shadow Mewtwo",
+        "label": "Shadow Mewtwo",
+        "alias": "shadow-mewtwo",
+        "sprite": "150",
+        "types": [
+          "psychic",
+          "dark"
+        ],
+        "baseStats": {
+          "hp": 106,
+          "atk": 110,
+          "def": 90,
+          "spa": 154,
+          "spd": 90,
+          "spe": 130
+        },
+        "total": 680,
+        "evoline": "mewtwo"
+      },
+      "poliwrath-mega": {
+        "name": "Mega Poliwrath",
+        "label": "Mega Poliwrath",
+        "alias": "poliwrath-mega",
+        "sprite": "62",
+        "types": [
+          "water",
+          "fighting"
+        ],
+        "baseStats": {
+          "hp": 90,
+          "atk": 155,
+          "def": 120,
+          "spa": 70,
+          "spd": 105,
+          "spe": 70
+        },
+        "total": 610,
+        "evoline": "poliwag"
+      },
+      "marowak-mega": {
+        "name": "Mega Marowak",
+        "label": "Mega Marowak",
+        "alias": "marowak-mega",
+        "sprite": "105",
+        "types": [
+          "ground",
+          "ghost"
+        ],
+        "baseStats": {
+          "hp": 60,
+          "atk": 135,
+          "def": 120,
+          "spa": 50,
+          "spd": 100,
+          "spe": 60
+        },
+        "total": 525,
+        "evoline": "cubone"
+      },
+      "eevee-mega": {
+        "name": "Mega Eevee",
+        "label": "Mega Eevee",
+        "alias": "eevee-mega",
+        "sprite": "133",
+        "types": [
+          "normal"
+        ],
+        "baseStats": {
+          "hp": 83,
+          "atk": 83,
+          "def": 83,
+          "spa": 83,
+          "spd": 83,
+          "spe": 83
+        },
+        "total": 498,
+        "evoline": "eevee"
+      },
+      "shadow-mewtwo-mega-x": {
+        "name": "Mega Shadow Mewtwo X",
+        "label": "Mega Shadow Mewtwo X",
+        "alias": "shadow-mewtwo-mega-x",
+        "sprite": "150",
+        "types": [
+          "ground",
+          "electric"
+        ],
+        "baseStats": {
+          "hp": 106,
+          "atk": 190,
+          "def": 100,
+          "spa": 154,
+          "spd": 100,
+          "spe": 130
+        },
+        "total": 780,
+        "evoline": "mewtwo"
+      },
+      "meganium-mega": {
+        "name": "Mega Meganium",
+        "label": "Mega Meganium",
+        "alias": "meganium-mega",
+        "sprite": "154",
+        "types": [
+          "grass",
+          "fairy"
+        ],
+        "baseStats": {
+          "hp": 80,
+          "atk": 82,
+          "def": 140,
+          "spa": 83,
+          "spd": 140,
+          "spe": 100
+        },
+        "total": 625,
+        "evoline": "chikorita"
+      },
+      "typhlosion-mega": {
+        "name": "Mega Typhlosion",
+        "label": "Mega Typhlosion",
+        "alias": "typhlosion-mega",
+        "sprite": "157",
+        "types": [
+          "fire"
+        ],
+        "baseStats": {
+          "hp": 78,
+          "atk": 89,
+          "def": 88,
+          "spa": 159,
+          "spd": 110,
+          "spe": 110
+        },
+        "total": 634,
+        "evoline": "cyndaquil"
+      },
+      "feraligatr-mega": {
+        "name": "Mega Feraligatr",
+        "label": "Mega Feraligatr",
+        "alias": "feraligatr-mega",
+        "sprite": "160",
+        "types": [
+          "water"
+        ],
+        "baseStats": {
+          "hp": 85,
+          "atk": 140,
+          "def": 110,
+          "spa": 89,
+          "spd": 103,
+          "spe": 103
+        },
+        "total": 630,
+        "evoline": "totodile"
+      },
+      "sudowoodo-mega": {
+        "name": "Mega Sudowoodo",
+        "label": "Mega Sudowoodo",
+        "alias": "sudowoodo-mega",
+        "sprite": "185",
+        "types": [
+          "rock",
+          "grass"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 140,
+          "def": 145,
+          "spa": 40,
+          "spd": 95,
+          "spe": 20
+        },
+        "total": 510,
+        "evoline": "sudowoodo"
+      },
+      "politoed-mega": {
+        "name": "Mega Politoed",
+        "label": "Mega Politoed",
+        "alias": "politoed-mega",
+        "sprite": "186",
+        "types": [
+          "water"
+        ],
+        "baseStats": {
+          "hp": 90,
+          "atk": 75,
+          "def": 95,
+          "spa": 120,
+          "spd": 140,
+          "spe": 80
+        },
+        "total": 600,
+        "evoline": "poliwag"
+      },
+      "sunflora-mega-m": {
+        "name": "Mega Sunflora (M)",
+        "label": "Mega Sunflora (M)",
+        "alias": "sunflora-mega-m",
+        "sprite": "192",
+        "types": [
+          "grass",
+          "fire"
+        ],
+        "baseStats": {
+          "hp": 75,
+          "atk": 85,
+          "def": 80,
+          "spa": 135,
+          "spd": 105,
+          "spe": 45
+        },
+        "total": 525,
+        "evoline": "sunkern"
+      },
+      "sunflora-mega-f": {
+        "name": "Mega Sunflora (F)",
+        "label": "Mega Sunflora (F)",
+        "alias": "sunflora-mega-f",
+        "sprite": "192",
+        "types": [
+          "grass"
+        ],
+        "baseStats": {
+          "hp": 75,
+          "atk": 85,
+          "def": 80,
+          "spa": 135,
+          "spd": 105,
+          "spe": 45
+        },
+        "total": 525,
+        "evoline": "sunkern"
+      },
+      "girafarig-mega": {
+        "name": "Mega Girafarig",
+        "label": "Mega Girafarig",
+        "alias": "girafarig-mega",
+        "sprite": "203",
+        "types": [
+          "normal",
+          "psychic"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 80,
+          "def": 95,
+          "spa": 130,
+          "spd": 95,
+          "spe": 85
+        },
+        "total": 555,
+        "evoline": "girafarig"
+      },
+      "steelix-mega-fire": {
+        "name": "Mega Steelix (Fire)",
+        "label": "Mega Steelix (Fire)",
+        "alias": "steelix-mega-fire",
+        "sprite": "10072",
+        "types": [
+          "steel",
+          "fire"
+        ],
+        "baseStats": {
+          "hp": 75,
+          "atk": 135,
+          "def": 225,
+          "spa": 65,
+          "spd": 55,
+          "spe": 55
+        },
+        "total": 610,
+        "evoline": "onix"
+      },
+      "magcargo-mega": {
+        "name": "Mega Magcargo",
+        "label": "Mega Magcargo",
+        "alias": "magcargo-mega",
+        "sprite": "219",
+        "types": [
+          "fire"
+        ],
+        "baseStats": {
+          "hp": 50,
+          "atk": 70,
+          "def": 100,
+          "spa": 150,
+          "spd": 100,
+          "spe": 50
+        },
+        "total": 520,
+        "evoline": "slugma"
+      },
+      "donphan-mega": {
+        "name": "Mega Donphan",
+        "label": "Mega Donphan",
+        "alias": "donphan-mega",
+        "sprite": "232",
+        "types": [
+          "ground"
+        ],
+        "baseStats": {
+          "hp": 90,
+          "atk": 150,
+          "def": 150,
+          "spa": 60,
+          "spd": 100,
+          "spe": 50
+        },
+        "total": 600,
+        "evoline": "phanpy"
+      },
+      "miltank-mega": {
+        "name": "Mega Miltank",
+        "label": "Mega Miltank",
+        "alias": "miltank-mega",
+        "sprite": "241",
+        "types": [
+          "normal"
+        ],
+        "baseStats": {
+          "hp": 95,
+          "atk": 125,
+          "def": 145,
+          "spa": 40,
+          "spd": 115,
+          "spe": 70
+        },
+        "total": 590,
+        "evoline": "miltank"
+      },
+      "shiftry-mega": {
+        "name": "Mega Shiftry",
+        "label": "Mega Shiftry",
+        "alias": "shiftry-mega",
+        "sprite": "275",
+        "types": [
+          "grass",
+          "dark"
+        ],
+        "baseStats": {
+          "hp": 90,
+          "atk": 135,
+          "def": 70,
+          "spa": 125,
+          "spd": 60,
+          "spe": 100
+        },
+        "total": 580,
+        "evoline": "seedot"
+      },
+      "flygon-mega": {
+        "name": "Mega Flygon",
+        "label": "Mega Flygon",
+        "alias": "flygon-mega",
+        "sprite": "330",
+        "types": [
+          "bug",
+          "dragon"
+        ],
+        "baseStats": {
+          "hp": 80,
+          "atk": 110,
+          "def": 90,
+          "spa": 140,
+          "spd": 80,
+          "spe": 120
+        },
+        "total": 620,
+        "evoline": "trapinch"
+      },
+      "cacturne-mega": {
+        "name": "Mega Cacturne",
+        "label": "Mega Cacturne",
+        "alias": "cacturne-mega",
+        "sprite": "332",
+        "types": [
+          "grass",
+          "dark"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 145,
+          "def": 70,
+          "spa": 145,
+          "spd": 70,
+          "spe": 75
+        },
+        "total": 575,
+        "evoline": "cacnea"
+      },
+      "crawdaunt-mega": {
+        "name": "Mega Crawdaunt",
+        "label": "Mega Crawdaunt",
+        "alias": "crawdaunt-mega",
+        "sprite": "342",
+        "types": [
+          "water",
+          "dark"
+        ],
+        "baseStats": {
+          "hp": 63,
+          "atk": 145,
+          "def": 95,
+          "spa": 100,
+          "spd": 85,
+          "spe": 80
+        },
+        "total": 568,
+        "evoline": "corpish"
+      },
+      "milotic-mega": {
+        "name": "Mega Milotic",
+        "label": "Mega Milotic",
+        "alias": "milotic-mega",
+        "sprite": "350",
+        "types": [
+          "water",
+          "fairy"
+        ],
+        "baseStats": {
+          "hp": 95,
+          "atk": 70,
+          "def": 109,
+          "spa": 130,
+          "spd": 155,
+          "spe": 81
+        },
+        "total": 640,
+        "evoline": "feebas"
+      },
+      "jirachi-mega": {
+        "name": "Mega Jirachi",
+        "label": "Mega Jirachi",
+        "alias": "jirachi-mega",
+        "sprite": "385",
+        "types": [
+          "steel",
+          "psychic"
+        ],
+        "baseStats": {
+          "hp": 100,
+          "atk": 100,
+          "def": 140,
+          "spa": 130,
+          "spd": 115,
+          "spe": 115
+        },
+        "total": 700,
+        "evoline": "jirachi"
+      },
+      "chatot-mega": {
+        "name": "Mega Chatot",
+        "label": "Mega Chatot",
+        "alias": "chatot-mega",
+        "sprite": "441",
+        "types": [
+          "normal",
+          "flying"
+        ],
+        "baseStats": {
+          "hp": 76,
+          "atk": 65,
+          "def": 55,
+          "spa": 147,
+          "spd": 52,
+          "spe": 116
+        },
+        "total": 511,
+        "evoline": "chatot"
+      },
+      "spiritomb-mega": {
+        "name": "Mega Spiritomb",
+        "label": "Mega Spiritomb",
+        "alias": "spiritomb-mega",
+        "sprite": "442",
+        "types": [
+          "ghost",
+          "dark"
+        ],
+        "baseStats": {
+          "hp": 50,
+          "atk": 142,
+          "def": 128,
+          "spa": 133,
+          "spd": 112,
+          "spe": 20
+        },
+        "total": 585,
+        "evoline": "spiritomb"
+      },
+      "froslass-mega": {
+        "name": "Mega Froslass",
+        "label": "Mega Froslass",
+        "alias": "froslass-mega",
+        "sprite": "478",
+        "types": [
+          "ice",
+          "ghost"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 80,
+          "def": 85,
+          "spa": 120,
+          "spd": 105,
+          "spe": 120
+        },
+        "total": 580,
+        "evoline": "snorunt"
+      },
+      "zebstrika-mega": {
+        "name": "Mega Zebstrika",
+        "label": "Mega Zebstrika",
+        "alias": "zebstrika-mega",
+        "sprite": "523",
+        "types": [
+          "electric",
+          "fairy"
+        ],
+        "baseStats": {
+          "hp": 75,
+          "atk": 100,
+          "def": 63,
+          "spa": 135,
+          "spd": 83,
+          "spe": 141
+        },
+        "total": 597,
+        "evoline": "blitzle"
+      },
+      "zoroark-mega": {
+        "name": "Mega Zoroark",
+        "label": "Mega Zoroark",
+        "alias": "zoroark-mega",
+        "sprite": "571",
+        "types": [
+          "dark"
+        ],
+        "baseStats": {
+          "hp": 60,
+          "atk": 130,
+          "def": 60,
+          "spa": 145,
+          "spd": 90,
+          "spe": 125
+        },
+        "total": 610,
+        "evoline": "zorua"
+      },
+      "gothitelle-mega": {
+        "name": "Mega Gothitelle",
+        "label": "Mega Gothitelle",
+        "alias": "gothitelle-mega",
+        "sprite": "576",
+        "types": [
+          "psychic",
+          "dark"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 55,
+          "def": 125,
+          "spa": 125,
+          "spd": 150,
+          "spe": 65
+        },
+        "total": 590,
+        "evoline": "gothita"
+      },
+      "reuniclus-mega": {
+        "name": "Mega Reuniclus",
+        "label": "Mega Reuniclus",
+        "alias": "reuniclus-mega",
+        "sprite": "579",
+        "types": [
+          "psychic"
+        ],
+        "baseStats": {
+          "hp": 110,
+          "atk": 85,
+          "def": 65,
+          "spa": 160,
+          "spd": 90,
+          "spe": 80
+        },
+        "total": 590,
+        "evoline": "solosis"
+      },
+      "cryogonal-mega": {
+        "name": "Mega Cryogonal",
+        "label": "Mega Cryogonal",
+        "alias": "cryogonal-mega",
+        "sprite": "615",
+        "types": [
+          "ice"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 50,
+          "def": 65,
+          "spa": 115,
+          "spd": 150,
+          "spe": 135
+        },
+        "total": 585,
+        "evoline": "cryogonal"
+      },
+      "haxorus-mega": {
+        "name": "Mega Haxorus",
+        "label": "Mega Haxorus",
+        "alias": "haxorus-mega",
+        "sprite": "612",
+        "types": [
+          "dragon",
+          "steel"
+        ],
+        "baseStats": {
+          "hp": 76,
+          "atk": 182,
+          "def": 130,
+          "spa": 80,
+          "spd": 90,
+          "spe": 82
+        },
+        "total": 640,
+        "evoline": "axew"
+      },
+      "stunfisk-mega": {
+        "name": "Mega Stunfisk",
+        "label": "Mega Stunfisk",
+        "alias": "stunfisk-mega",
+        "sprite": "618",
+        "types": [
+          "ground",
+          "electric"
+        ],
+        "baseStats": {
+          "hp": 109,
+          "atk": 76,
+          "def": 104,
+          "spa": 91,
+          "spd": 134,
+          "spe": 57
+        },
+        "total": 571,
+        "evoline": "stunfisk"
+      },
+      "bisharp-mega": {
+        "name": "Mega Bisharp",
+        "label": "Mega Bisharp",
+        "alias": "bisharp-mega",
+        "sprite": "625",
+        "types": [
+          "dark",
+          "steel"
+        ],
+        "baseStats": {
+          "hp": 65,
+          "atk": 145,
+          "def": 130,
+          "spa": 60,
+          "spd": 85,
+          "spe": 105
+        },
+        "total": 590,
+        "evoline": "pawniard"
+      },
+      "hydreigon-mega": {
+        "name": "Mega Hydreigon",
+        "label": "Mega Hydreigon",
+        "alias": "hydreigon-mega",
+        "sprite": "635",
+        "types": [
+          "dark",
+          "dragon"
+        ],
+        "baseStats": {
+          "hp": 92,
+          "atk": 130,
+          "def": 105,
+          "spa": 170,
+          "spd": 105,
+          "spe": 98
+        },
+        "total": 700,
+        "evoline": "deino"
+      },
+      "delta-venusaur-mega": {
+        "name": "Mega Delta Venusaur",
+        "label": "Mega Delta Venusaur",
+        "alias": "delta-venusaur-mega",
+        "sprite": "delta-venusaur",
+        "types": [
+          "fairy",
+          "psychic"
+        ],
+        "baseStats": {
+          "hp": 80,
+          "atk": 100,
+          "def": 123,
+          "spa": 122,
+          "spd": 120,
+          "spe": 80
+        },
+        "total": 625,
+        "evoline": "delta-bulbasaur",
+        "imgUrl": "/insurgence/delta-venusaur"
+      },
+      "delta-charizard-mega": {
+        "name": "Mega Delta Charizard",
+        "label": "Mega Delta Charizard",
+        "alias": "delta-charizard-mega",
+        "sprite": "delta-charizard",
+        "types": [
+          "ghost",
+          "dragon"
+        ],
+        "baseStats": {
+          "hp": 78,
+          "atk": 104,
+          "def": 78,
+          "spa": 159,
+          "spd": 115,
+          "spe": 100
+        },
+        "total": 634,
+        "evoline": "delta-charmander",
+        "imgUrl": "/insurgence/delta-charizard"
+      },
+      "delta-blastoise-mega": {
+        "name": "Mega Delta Blastoise",
+        "label": "Mega Delta Blastoise",
+        "alias": "delta-blastoise-mega",
+        "sprite": "delta-blastoise",
+        "types": [
+          "dark",
+          "fighting"
+        ],
+        "baseStats": {
+          "hp": 79,
+          "atk": 103,
+          "def": 120,
+          "spa": 135,
+          "spd": 115,
+          "spe": 78
+        },
+        "total": 630,
+        "evoline": "delta-squirtle",
+        "imgUrl": "/insurgence/delta-blastoise"
+      },
+      "delta-bisharp-mega": {
+        "name": "Mega Delta Bisharp",
+        "label": "Mega Delta Bisharp",
+        "alias": "delta-bisharp-mega",
+        "sprite": "delta-bisharp",
+        "types": [
+          "flying",
+          "fighting"
+        ],
+        "baseStats": {
+          "hp": 65,
+          "atk": 145,
+          "def": 130,
+          "spa": 60,
+          "spd": 85,
+          "spe": 105
+        },
+        "total": 590,
+        "evoline": "delta-pawniard",
+        "imgUrl": "/insurgence/delta-bisharp"
+      },
+      "delta-gardevoir-mega": {
+        "name": "Mega Delta Gardevoir",
+        "label": "Mega Delta Gardevoir",
+        "alias": "delta-gardevoir-mega",
+        "sprite": "delta-gardevoir",
+        "types": [
+          "electric",
+          "ice"
+        ],
+        "baseStats": {
+          "hp": 68,
+          "atk": 85,
+          "def": 65,
+          "spa": 165,
+          "spd": 135,
+          "spe": 100
+        },
+        "total": 618,
+        "evoline": "delta-ralts",
+        "imgUrl": "/insurgence/delta-gardevoir"
+      },
+      "delta-gallade-mega": {
+        "name": "Mega Delta Gallade",
+        "label": "Mega Delta Gallade",
+        "alias": "delta-gallade-mega",
+        "sprite": "delta-gallade",
+        "types": [
+          "electric",
+          "ice"
+        ],
+        "baseStats": {
+          "hp": 68,
+          "atk": 165,
+          "def": 95,
+          "spa": 65,
+          "spd": 115,
+          "spe": 110
+        },
+        "total": 618,
+        "evoline": "delta-ralts",
+        "imgUrl": "/insurgence/delta-gallade"
+      },
+      "delta-sunflora-mega": {
+        "name": "Mega Delta Sunflora",
+        "label": "Mega Delta Sunflora",
+        "alias": "delta-sunflora-mega",
+        "sprite": "delta-sunflora",
+        "types": [
+          "fire",
+          "poison"
+        ],
+        "baseStats": {
+          "hp": 75,
+          "atk": 85,
+          "def": 80,
+          "spa": 135,
+          "spd": 105,
+          "spe": 45
+        },
+        "total": 525,
+        "evoline": "delta-sunkern",
+        "imgUrl": "/insurgence/delta-sunflora"
+      },
+      "delta-scizor-mega": {
+        "name": "Mega Delta Scizor",
+        "label": "Mega Delta Scizor",
+        "alias": "delta-scizor-mega",
+        "sprite": "delta-scizor",
+        "types": [
+          "ice",
+          "fighting"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 150,
+          "def": 140,
+          "spa": 65,
+          "spd": 100,
+          "spe": 75
+        },
+        "total": 600,
+        "evoline": "delta-scyther",
+        "imgUrl": "/insurgence/delta-scizor"
+      },
+      "delta-glalie-mega": {
+        "name": "Mega Delta Glalie",
+        "label": "Mega Delta Glalie",
+        "alias": "delta-glalie-mega",
+        "sprite": "delta-glalie",
+        "types": [
+          "fire",
+          "rock"
+        ],
+        "baseStats": {
+          "hp": 80,
+          "atk": 120,
+          "def": 80,
+          "spa": 120,
+          "spd": 80,
+          "spe": 100
+        },
+        "total": 580,
+        "evoline": "delta-snorunt",
+        "imgUrl": "/insurgence/delta-glalie"
+      },
+      "delta-froslass-mega": {
+        "name": "Mega Delta Froslass",
+        "label": "Mega Delta Froslass",
+        "alias": "delta-froslass-mega",
+        "sprite": "delta-froslass",
+        "types": [
+          "fire",
+          "ghost"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 80,
+          "def": 85,
+          "spa": 120,
+          "spd": 105,
+          "spe": 120
+        },
+        "total": 580,
+        "evoline": "delta-snorunt",
+        "imgUrl": "/insurgence/delta-froslass"
+      },
+      "delta-typhlosion-mega": {
+        "name": "Mega Delta Typhlosion",
+        "label": "Mega Delta Typhlosion",
+        "alias": "delta-typhlosion-mega",
+        "sprite": "delta-typhlosion",
+        "types": [
+          "electric",
+          "steel"
+        ],
+        "baseStats": {
+          "hp": 78,
+          "atk": 89,
+          "def": 88,
+          "spa": 159,
+          "spd": 110,
+          "spe": 110
+        },
+        "total": 634,
+        "evoline": "delta-cyndaquil",
+        "imgUrl": "/insurgence/delta-typhlosion"
+      }, 
+      "delta-pidgeot-mega": {
+        "name": "Mega Delta Pidgeot",
+        "label": "Mega Delta Pidgeot",
+        "alias": "delta-pidgeot-mega",
+        "sprite": "delta-pidgeot",
+        "types": [
+          "dark",
+          "dragon"
+        ],
+        "baseStats": {
+          "hp": 83,
+          "atk": 80,
+          "def": 80,
+          "spa": 135,
+          "spd": 80,
+          "spe": 121
+        },
+        "total": 579,
+        "evoline": "delta-pidgey",
+        "imgUrl": "/insurgence/delta-pidgeot"
+      },
+      "delta-girafarig-mega": {
+        "name": "Mega Delta Girafarig",
+        "label": "Mega Delta Girafarig",
+        "alias": "delta-girafarig-mega",
+        "sprite": "delta-girafarig",
+        "types": [
+          "steel",
+          "poison"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 80,
+          "def": 95,
+          "spa": 130,
+          "spd": 95,
+          "spe": 85
+        },
+        "total": 555,
+        "evoline": "delta-girafarig",
+        "imgUrl": "/insurgence/delta-girafarig"
+      },
+      "delta-sableye-mega": {
+        "name": "Mega Delta Sableye",
+        "label": "Mega Delta Sableye",
+        "alias": "delta-sableye-mega",
+        "sprite": "delta-sableye",
+        "types": [
+          "fire",
+          "rock"
+        ],
+        "baseStats": {
+          "hp": 50,
+          "atk": 85,
+          "def": 125,
+          "spa": 85,
+          "spd": 115,
+          "spe": 20
+        },
+        "total": 480,
+        "evoline": "delta-sableye",
+        "imgUrl": "/insurgence/delta-sableye"
+      },
+      "delta-mawile-mega": {
+        "name": "Mega Delta Mawile",
+        "label": "Mega Delta Mawile",
+        "alias": "delta-mawile-mega",
+        "sprite": "delta-mawile",
+        "types": [
+          "grass",
+          "dark"
+        ],
+        "baseStats": {
+          "hp": 50,
+          "atk": 105,
+          "def": 125,
+          "spa": 55,
+          "spd": 95,
+          "spe": 50
+        },
+        "total": 480,
+        "evoline": "delta-mawile",
+        "imgUrl": "/insurgence/delta-mawile"
+      },
+      "delta-medicham-mega": {
+        "name": "Mega Delta Medicham",
+        "label": "Mega Delta Medicham",
+        "alias": "delta-medicham-mega",
+        "sprite": "delta-medicham",
+        "types": [
+          "fairy",
+          "ground"
+        ],
+        "baseStats": {
+          "hp": 60,
+          "atk": 100,
+          "def": 85,
+          "spa": 80,
+          "spd": 85,
+          "spe": 100
+        },
+        "total": 510,
+        "evoline": "delta-meditite",
+        "imgUrl": "/insurgence/delta-medicham"
+      },
+      "delta-camerupt-mega": {
+        "name": "Mega Delta Camerupt",
+        "label": "Mega Delta Camerupt",
+        "alias": "delta-camerupt-mega",
+        "sprite": "delta-camerupt",
+        "types": [
+          "poison"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 120,
+          "def": 100,
+          "spa": 145,
+          "spd": 105,
+          "spe": 20
+        },
+        "total": 560,
+        "evoline": "delta-numel",
+        "imgUrl": "/insurgence/delta-camerupt"
+      },
+      "delta-milotic-mega": {
+        "name": "Mega Delta Milotic",
+        "label": "Mega Delta Milotic",
+        "alias": "delta-milotic-mega",
+        "sprite": "delta-milotic",
+        "types": [
+          "ghost"
+        ],
+        "baseStats": {
+          "hp": 95,
+          "atk": 70,
+          "def": 109,
+          "spa": 130,
+          "spd": 155,
+          "spe": 81
+        },
+        "total": 640,
+        "evoline": "delta-feebas",
+        "imgUrl": "/insurgence/delta-milotic"
+      }, 
+      "delta-metagross-spider-mega": {
+        "name": "Mega Delta Metagross (Spider)",
+        "label": "Mega Delta Metagross (Spider)",
+        "alias": "delta-metagross-spider-mega",
+        "sprite": "delta-metagross-spider",
+        "types": [
+          "ground",
+          "bug"
+        ],
+        "baseStats": {
+          "hp": 80,
+          "atk": 145,
+          "def": 150,
+          "spa": 105,
+          "spd": 110,
+          "spe": 110
+        },
+        "total": 700,
+        "evoline": "delta-beldum-spider",
+        "imgUrl": "/insurgence/delta-metagross-spider"
+      },
+      "delta-metagross-ruin-mega": {
+        "name": "Mega Delta Metagross (Ruin)",
+        "label": "Mega Delta Metagross (Ruin)",
+        "alias": "delta-metagross-ruin-mega",
+        "sprite": "delta-metagross-ruin",
+        "types": [
+          "grass",
+          "rock"
+        ],
+        "baseStats": {
+          "hp": 80,
+          "atk": 145,
+          "def": 150,
+          "spa": 105,
+          "spd": 110,
+          "spe": 110
+        },
+        "total": 700,
+        "evoline": "delta-beldum-ruin",
+        "imgUrl": "/insurgence/delta-metagross-ruin"
+      },
+      "delta-lopunny-mega": {
+        "name": "Mega Delta Lopunny",
+        "label": "Mega Delta Lopunny",
+        "alias": "delta-lopunny-mega",
+        "sprite": "delta-lopunny",
+        "types": [
+          "fighting",
+          "psychic"
+        ],
+        "baseStats": {
+          "hp": 65,
+          "atk": 136,
+          "def": 94,
+          "spa": 54,
+          "spd": 96,
+          "spe": 135
+        },
+        "total": 580,
+        "evoline": "delta-buneary",
+        "imgUrl": "/insurgence/delta-lopunny"
+      },
+      "delta-lucario-mega": {
+        "name": "Mega Delta Lucario",
+        "label": "Mega Delta Lucario",
+        "alias": "delta-lucario-mega",
+        "sprite": "delta-lucario",
+        "types": [
+          "dark",
+          "ground"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 145,
+          "def": 88,
+          "spa": 140,
+          "spd": 70,
+          "spe": 112
+        },
+        "total": 625,
+        "evoline": "delta-riolu",
+        "imgUrl": "/insurgence/delta-lucario"
       }
     }
   },

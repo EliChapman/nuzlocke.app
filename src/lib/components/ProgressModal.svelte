@@ -44,7 +44,7 @@
       teamLocs.every((it, i) => ogTeam[i] === it) &&
       teamLocs.length === ogTeam.length
 
-    const teamList = toList(team.map((t) => regionise(capitalise(t.name))))
+    const teamList = toList(team.map((t) => capitalise(regionise(t.name))))
 
     if (
       !same &&

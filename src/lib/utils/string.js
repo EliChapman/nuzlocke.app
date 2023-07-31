@@ -1,10 +1,6 @@
-export const capitalise = (str, lowerRest = false) => {
-  if (!str) return ''
-  const [first, ...rest] = str
-  return (
-    first.toUpperCase() +
-    (lowerRest ? rest.join('').toLowerCase() : rest.join(''))
-  )
+export const capitalise = (str, lower = false) => {
+  if (!str) return '';
+  return (lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
 }
 
 export const unslugify = (s = '') => s.replace(/-/g, ' ')

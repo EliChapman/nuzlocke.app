@@ -9,7 +9,8 @@
     "gen": "romhack",
     "supported": true,
     "region": "torren",
-    "lastUpdated": "27th March 2023"
+    "lastUpdated": "26th July 2023",
+    "difficulty": ["Easy:_e", "Normal:_n", "Hard:_h"]
   },
   "newgen": {
     "pid": "newgen",

@@ -66,7 +66,7 @@
   <p class='text-gray-400 text-base mb-4'>
   {#if selectedMons.length}
       Add {selectedMons
-      .map(m => regionise(capitalise(m.pokemon)))
+      .map(m => capitalise(regionise(m.pokemon)))
       .join(', ')
   .replace(/^(.*), /, '$1 and ')} to your team
 {:else}

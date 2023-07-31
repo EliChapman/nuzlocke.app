@@ -1,5 +1,57 @@
 {
-  "insurgence": [
+  "insurgence_e": [
+    {
+      "type": "route",
+      "name": "Hidden Grotto",
+      "encounters": [
+        "exeggcute",
+        "stunky",
+        "heatmor",
+        "durant",
+        "charmander",
+        "pansage",
+        "throh",
+        "sawk",
+        "squirtle",
+        "poliwhirl",
+        "panpour",
+        "delta-sunkern",
+        "dunsparce",
+        "electrike",
+        "fennekin",
+        "delta-munchlax",
+        "spritzee",
+        "slurpuff",
+        "treecko",
+        "mudkip",
+        "honedge",
+        "delta-combee",
+        "phanpy",
+        "turtwig",
+        "chespin",
+        "chimchar",
+        "scraggy",
+        "froakie",
+        "delta-scraggy",
+        "bulbasaur",
+        "girafarig",
+        "sneasel",
+        "darumaka",
+        "zorua",
+        "noibat",
+        "delta-phantump",
+        "doduo",
+        "swablu",
+        "deino",
+        "drowzee",
+        "floette",
+        "pangoro",
+        "doublade",
+        "beldum",
+        "munna",
+        "delta-chinchou"
+      ]
+    },
     {
       "type": "route",
       "name": "Starter",
@@ -11,331 +63,179 @@
       ]
     },
     {
-      "type": "gym",
-      "name": "???",
-      "value": "dark1_h",
-      "group": "evil-team",
-      "boss": "Persephone"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "dark1_h",
-      "group": "evil-team",
-      "boss": "Persephone"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "dark1_h",
-      "group": "evil-team",
-      "boss": "Persephone"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "dark2_h",
-      "group": "evil-team",
-      "boss": "Persephone"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "dark2_h",
-      "group": "evil-team",
-      "boss": "Persephone"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "dark2_h",
-      "group": "evil-team",
-      "boss": "Persephone"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "dark3_h",
-      "group": "evil-team",
-      "boss": "Persephone"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "dark3_h",
-      "group": "evil-team",
-      "boss": "Persephone"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "dark3_h",
-      "group": "evil-team",
-      "boss": "Persephone"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "inf1_h",
-      "group": "evil-team",
-      "boss": "Zenith"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "inf2_h",
-      "group": "evil-team",
-      "boss": "Zenith# Infernal Base"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "abys1_h",
-      "group": "evil-team",
-      "boss": "Audrey"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "abys2_h",
-      "group": "evil-team",
-      "boss": "Audrey"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "perf1_h",
-      "group": "evil-team",
-      "boss": "Taen"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "perf2_h",
-      "group": "evil-team",
-      "boss": "Taen"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "perf3_h",
-      "group": "evil-team",
-      "boss": "Taen"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "perf4_h",
-      "group": "evil-team",
-      "boss": "Taen"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "perf5_h",
-      "group": "evil-team",
-      "boss": "Taen"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "perf6_h",
-      "group": "evil-team",
-      "boss": "Taen"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "j1_h",
-      "group": "mini-boss",
-      "boss": "Jaern"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "j2_h",
-      "group": "mini-boss",
-      "boss": "Jaern"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "1_h",
-      "group": "gym-leader",
-      "boss": "Orion"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "2_h",
-      "group": "gym-leader",
-      "boss": "Xavier"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "3_h",
-      "group": "gym-leader",
-      "boss": "East"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "4_h",
-      "group": "gym-leader",
-      "boss": "Harmony"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "5_h",
-      "group": "gym-leader",
-      "boss": "Anastasia"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "6_h",
-      "group": "gym-leader",
-      "boss": "Diana"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "7_h",
-      "group": "gym-leader",
-      "boss": "Calreath"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "8_ha",
-      "group": "gym-leader",
-      "boss": "Adam"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "8_hb",
-      "group": "gym-leader",
-      "boss": "Adam"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "e1_h",
-      "group": "elite-four",
-      "boss": "Kayla"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "e2_h",
-      "group": "elite-four",
-      "boss": "Eduard"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "e3_h",
-      "group": "elite-four",
-      "boss": "Yuki"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "e4_h",
-      "group": "elite-four",
-      "boss": "London"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "ec_h",
-      "group": "elite-four",
-      "boss": "Reukra"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "mb1_h",
-      "group": "mini-bos",
-      "boss": "Gail#Dragon Ruins"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "r1_h",
-      "group": "rival",
-      "boss": "Damian"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "r2_h",
-      "group": "rival",
-      "boss": "Damian"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "n1_h",
-      "group": "rival",
-      "boss": "Nora"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "n2_h",
-      "group": "rival",
-      "boss": "Nora"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "n3_h",
-      "group": "rival",
-      "boss": "Nora"
-    },
-    {
-      "type": "gym",
-      "name": "???",
-      "value": "n4_h",
-      "group": "rival",
-      "boss": "Nora"
-    },
-    {
       "type": "route",
-      "name": "Alpha Temple",
+      "name": "Shade Forest",
       "encounters": [
-        "unown",
-        "lucario",
-        "hydreigon",
-        "aegislash"
+        "caterpie",
+        "weedle",
+        "pikachu",
+        "nidoran-f",
+        "nidoran-m",
+        "gastly",
+        "patrat",
+        "poliwag",
+        "remoraid",
+        "mantyke",
+        "magikarp",
+        "tympole",
+        "gyarados",
+        "octillery",
+        "seismitoad"
       ]
     },
     {
       "type": "route",
-      "name": "Amphitrite City",
+      "name": "Telnor Cave",
       "encounters": [
+        "diglett",
+        "geodude",
+        "onix",
+        "cubone",
+        "nosepass",
+        "baltoy",
+        "roggenrola",
+        "wooper",
+        "shellos",
+        "magikarp",
+        "qwilfish",
+        "tympole",
+        "gyarados",
+        "seismitoad",
+        "delta-diglett"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Route 1",
+      "encounters": [
+        "meowth",
+        "ponyta",
+        "hoppip",
+        "blitzle",
+        "bunnelby",
+        "lotad",
+        "oshawott",
+        "magikarp",
+        "barboach",
+        "skrelp",
+        "gyarados",
+        "whiscash",
+        "dragalge",
+        "delta-dwebble-cake"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Dark Cave",
+      "encounters": [
+        "zubat",
+        "abra",
+        "geodude",
+        "poochyena",
+        "purrloin",
+        "corphish",
+        "ducklett",
+        "carvanha",
+        "krabby",
         "kingler",
-        "seadra",
-        "dratini",
-        "octillery",
+        "qwilfish",
         "sharpedo",
-        "wailord",
-        "clamperl",
-        "huntail",
-        "relicanth",
-        "empoleon",
-        "budew",
+        "crawdaunt",
+        "golbat",
+        "kadabra",
+        "graveler",
+        "mightyena",
+        "liepard"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Midna Garden",
+      "encounters": [
+        "tentacool",
+        "surskit",
+        "piplup",
+        "shellder",
+        "magikarp",
+        "cloyster",
+        "gyarados",
+        "dratini",
+        "exeggcute",
+        "stunky",
+        "heatmor",
+        "durant",
+        "cobalion"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Midna Town",
+      "encounters": [
+        "corsola",
+        "buizel",
+        "finneon",
+        "carvanha",
+        "tympole",
+        "sharpedo",
         "lumineon",
-        "palpitoad",
-        "carracosta",
-        "swanna",
-        "barbaracle",
-        "noibat",
-        "delta-shuckle"
+        "seismitoad",
+        "gastly",
+        "elekid",
+        "rotom"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Midna Mine",
+      "encounters": [
+        "zubat",
+        "shuckle",
+        "phanpy",
+        "nosepass",
+        "woobat",
+        "drilbur",
+        "poliwag",
+        "seel",
+        "goldeen",
+        "clamperl",
+        "luvdisc",
+        "seaking",
+        "huntail",
+        "gorebyss",
+        "geodude",
+        "roggenrola",
+        "dwebble",
+        "carbink"
+      ]
+    },
+    {
+      "type": "gym",
+      "name": "Trainer School Round 2",
+      "value": "rd1_e",
+      "group": "rival",
+      "boss": "Damian"
+    },
+    {
+      "type": "gym",
+      "name": "Trainer School Round 3",
+      "value": "rn1_e",
+      "group": "rival",
+      "boss": "Nora"
+    },
+    {
+      "type": "route",
+      "name": "Route 2",
+      "encounters": [
+        "krabby",
+        "staryu",
+        "totodile",
+        "marill",
+        "corsola",
+        "remoraid",
+        "octillery",
+        "corphish",
+        "bidoof",
+        "buizel"
       ]
     },
     {
@@ -356,174 +256,11 @@
       ]
     },
     {
-      "type": "route",
-      "name": "Ancient Tower",
-      "encounters": [
-        "golbat",
-        "ho-oh",
-        "mawile",
-        "claydol",
-        "banette",
-        "lucario",
-        "sigilyph",
-        "fraxure",
-        "mienfoo",
-        "delta-noibat"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Armor Fossil",
-      "encounters": [
-        "shieldon"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Battle Frontier",
-      "encounters": [
-        "delta-plusle",
-        "delta-minun",
-        "delta-golett",
-        "mewtwo"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Broadcast Tower",
-      "encounters": [
-        "latios",
-        "axew",
-        "deino",
-        "delta-grimer",
-        "delta-solosis"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Cave of Steam",
-      "encounters": [
-        "tentacruel",
-        "geodude",
-        "marowak",
-        "rhyhorn",
-        "starmie",
-        "magikarp",
-        "gyarados",
-        "lapras",
-        "croconaw",
-        "lanturn",
-        "shuckle",
-        "slugma",
-        "magcargo",
-        "remoraid",
-        "octillery",
-        "swampert",
-        "nosepass",
-        "torkoal",
-        "roggenrola",
-        "gigalith",
-        "dwebble",
-        "druddigon",
-        "heatmor",
-        "carbink",
-        "volcanion"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Cerebrum Town",
-      "encounters": [
-        "delta-yamask"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Claw Fossil",
-      "encounters": [
-        "anorith"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Cloud Bottle",
-      "encounters": [
-        "delta-hoopa"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Coatlicue Gardens",
-      "encounters": [
-        "xerneas"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Cortisol Road",
-      "encounters": [
-        "clefable",
-        "ninetales",
-        "drowzee",
-        "munna",
-        "musharna",
-        "zorua",
-        "delta-chinchou"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Cover Fossil",
-      "encounters": [
-        "tirtouga"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Crossroads",
-      "encounters": [
-        "growlithe",
-        "weepinbell",
-        "slowpoke",
-        "ditto",
-        "dunsparce",
-        "qwilfish",
-        "electrike",
-        "kecleon",
-        "piplup",
-        "stunky",
-        "fennekin",
-        "fletchling",
-        "clauncher"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Crystal Caves",
-      "encounters": [
-        "tentacool",
-        "kingler",
-        "goldeen",
-        "staryu",
-        "starmie",
-        "gyarados",
-        "lapras",
-        "mew",
-        "slowking",
-        "corsola",
-        "remoraid",
-        "sableye",
-        "grumpig",
-        "relicanth",
-        "mismagius",
-        "victini",
-        "gigalith",
-        "palpitoad",
-        "druddigon",
-        "clauncher",
-        "carbink",
-        "diancie"
-      ]
+      "type": "gym",
+      "name": "Ancient Ruins",
+      "value": "abyss1_e",
+      "group": "evil-team",
+      "boss": "Abyssal Cultist"
     },
     {
       "type": "route",
@@ -550,167 +287,127 @@
     },
     {
       "type": "route",
-      "name": "Dark Cave",
+      "name": "Suntouched City",
       "encounters": [
-        "zubat",
-        "golbat",
-        "abra",
-        "kadabra",
-        "geodude",
-        "graveler",
+        "machop",
         "krabby",
-        "kingler",
-        "qwilfish",
-        "poochyena",
-        "mightyena",
-        "carvanha",
-        "sharpedo",
-        "corphish",
-        "crawdaunt",
-        "purrloin",
-        "liepard",
-        "ducklett"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Deep Cavern",
-      "encounters": [
-        "tentacruel",
-        "kyogre"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Deep Mantle",
-      "encounters": [
-        "magcargo",
-        "houndoom",
-        "sableye",
-        "camerupt",
-        "spiritomb",
-        "excadrill",
-        "darmanitan",
-        "chandelure",
-        "bisharp",
-        "heatmor"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Dev Island",
-      "encounters": [
-        "uxie",
-        "mesprit",
-        "azelf"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Deyraan Cave",
-      "encounters": [
-        "kingler",
-        "seadra",
-        "starmie",
-        "lapras",
-        "dragonair",
-        "chinchou",
-        "quagsire",
-        "qwilfish",
-        "wailord",
-        "glalie",
-        "clamperl",
-        "luvdisc",
-        "abomasnow",
-        "mamoswine",
-        "gigalith",
-        "basculin",
-        "vanilluxe",
-        "avalugg"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Deyraan Town",
-      "encounters": [
-        "dewgong",
-        "walrein",
-        "glaceon",
-        "zorua",
-        "delta-misdreavus"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Dome Fossil",
-      "encounters": [
-        "kabuto"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Dragon Ruins",
-      "encounters": [
-        "charizard",
-        "magikarp",
-        "gyarados",
-        "feraligatr",
-        "chinchou",
-        "lanturn",
-        "qwilfish",
+        "zapdos",
+        "natu",
         "corsola",
-        "sceptile",
-        "cradily",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "cresselia",
-        "swanna",
-        "golurk",
-        "reshiram",
-        "zekrom",
-        "zygarde",
-        "delta-bergmite"
+        "remoraid",
+        "octillery",
+        "corphish",
+        "delta-aipom"
       ]
     },
     {
       "type": "route",
-      "name": "Erebus City",
+      "name": "Broadcast Mission 1",
       "encounters": [
-        "magby",
-        "shaymin",
-        "druddigon",
-        "delta-bulbasaur",
-        "delta-charmander",
-        "delta-squirtle"
+        "axew"
       ]
     },
     {
       "type": "route",
-      "name": "Fiery Caverns",
+      "name": "Broadcast Mission 2",
       "encounters": [
-        "dugtrio",
-        "tentacruel",
-        "magmar",
+        "delta-grimer"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Broadcast Mission 4",
+      "encounters": [
+        "delta-solosis"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Broadcast Mission 5",
+      "encounters": [
+        "deino"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Broadcast Mission 7",
+      "encounters": [
+        "latios"
+      ]
+    },
+    {
+      "type": "gym",
+      "name": "Suntouched Gym",
+      "value": "1_e",
+      "group": "gym-leader",
+      "boss": "Orion"
+    },
+    {
+      "type": "route",
+      "name": "Suntouched Exitway",
+      "encounters": [
+        "magnemite",
+        "shellder",
+        "cloyster",
+        "onix",
         "magikarp",
         "gyarados",
-        "lanturn",
-        "qwilfish",
-        "magcargo",
-        "wingull",
-        "sharpedo",
-        "wailmer",
-        "camerupt",
-        "torkoal",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "simisear",
-        "darmanitan",
-        "swanna",
-        "delta-snorunt",
-        "heatran"
+        "dratini",
+        "shuckle",
+        "whismur",
+        "makuhita",
+        "piplup",
+        "roggenrola",
+        "timburr",
+        "skrelp",
+        "clauncher"
       ]
+    },
+    {
+      "type": "route",
+      "name": "Route 3",
+      "encounters": [
+        "charmander",
+        "tentacool",
+        "dewgong",
+        "krabby",
+        "staryu",
+        "sudowoodo",
+        "mantine",
+        "seedot",
+        "nuzleaf",
+        "ralts",
+        "kirlia",
+        "mantyke",
+        "pansage",
+        "throh",
+        "sawk",
+        "petilil",
+        "basculin",
+        "delta-scyther"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Metchi Town",
+      "encounters": [
+        "tentacool",
+        "dewgong",
+        "krabby",
+        "staryu",
+        "marill",
+        "basculin",
+        "alomomola",
+        "delta-ditto"
+      ]
+    },
+    {
+      "type": "gym",
+      "name": "Metchi Town",
+      "value": "rn2_e",
+      "group": "rival",
+      "boss": "Nora",
+      "level-cap": 30
     },
     {
       "type": "route",
@@ -1037,1434 +734,6 @@
     },
     {
       "type": "route",
-      "name": "Gaea Core",
-      "encounters": [
-        "unown",
-        "smeargle",
-        "regigigas",
-        "eelektross",
-        "beheeyem"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Gaea Town",
-      "encounters": [
-        "golduck",
-        "slowbro",
-        "dratini",
-        "qwilfish",
-        "celebi",
-        "corphish",
-        "feebas",
-        "lumineon",
-        "seismitoad",
-        "darumaka",
-        "jellicent",
-        "clawitzer"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Hekate Town",
-      "encounters": [
-        "tentacruel",
-        "haunter",
-        "magikarp",
-        "gyarados",
-        "lanturn",
-        "qwilfish",
-        "wingull",
-        "sharpedo",
-        "wailmer",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "munchlax",
-        "cresselia",
-        "swanna"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Helios City",
-      "encounters": [
-        "smeargle",
-        "barboach",
-        "wynaut",
-        "bonsly",
-        "delta-lotad"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Helios Sewers",
-      "encounters": [
-        "geodude",
-        "grimer",
-        "koffing",
-        "shuckle",
-        "nosepass",
-        "gulpin",
-        "stunky",
-        "roggenrola",
-        "dwebble",
-        "yamask",
-        "trubbish",
-        "foongus",
-        "carbink",
-        "delta-heatmor"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Helix Fossil",
-      "encounters": [
-        "omanyte"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Holon Desert",
-      "encounters": [
-        "machamp",
-        "golem",
-        "marowak",
-        "flygon",
-        "solrock",
-        "claydol",
-        "lopunny",
-        "hippowdon",
-        "tangrowth",
-        "gliscor",
-        "delta-tangela",
-        "delta-buneary",
-        "delta-regirock"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Holon Grasslands",
-      "encounters": [
-        "tentacool",
-        "slowbro",
-        "dewgong",
-        "kingler",
-        "lanturn",
-        "octillery",
-        "sceptile",
-        "mawile",
-        "carvanha",
-        "crawdaunt",
-        "huntail",
-        "gorebyss",
-        "mothim",
-        "combee",
-        "unfezant",
-        "tympole",
-        "seismitoad",
-        "lilligant",
-        "escavalier",
-        "accelgor",
-        "pyroar",
-        "clawitzer",
-        "delta-treecko",
-        "delta-mawile",
-        "delta-petilil-fairy",
-        "delta-karrablast"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Holon Jungle",
-      "encounters": [
-        "bayleef",
-        "aipom",
-        "cacturne",
-        "skuntank",
-        "toxicroak",
-        "crustle",
-        "amoonguss",
-        "trevenant",
-        "gourgeist",
-        "delta-kabuto",
-        "delta-croagunk",
-        "delta-darumaka",
-        "delta-dwebble-berry",
-        "delta-foongus"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Holon Lake",
-      "encounters": [
-        "clefable",
-        "golduck",
-        "tentacruel",
-        "dewgong",
-        "starmie",
-        "ditto",
-        "dragonair",
-        "lanturn",
-        "mantine",
-        "ludicolo",
-        "plusle",
-        "minun",
-        "wailord",
-        "lunatone",
-        "solrock",
-        "huntail",
-        "gorebyss",
-        "luvdisc",
-        "metagross",
-        "torterra",
-        "mamoswine",
-        "snivy",
-        "basculin",
-        "barbaracle",
-        "delta-turtwig",
-        "delta-snivy"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Holon Marsh",
-      "encounters": [
-        "butterfree",
-        "tentacruel",
-        "dodrio",
-        "politoed",
-        "remoraid",
-        "corphish",
-        "crawdaunt",
-        "finneon",
-        "lumineon",
-        "yanmega",
-        "tympole",
-        "palpitoad",
-        "eelektross",
-        "greninja",
-        "malamar",
-        "barbaracle",
-        "delta-froakie",
-        "delta-tentacool",
-        "delta-yanma",
-        "delta-goomy"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Holon Mountain",
-      "encounters": [
-        "tentacruel",
-        "dewgong",
-        "seaking",
-        "lapras",
-        "noctowl",
-        "chinchou",
-        "lanturn",
-        "shiftry",
-        "medicham",
-        "barboach",
-        "clamperl",
-        "huntail",
-        "lumineon",
-        "abomasnow",
-        "glaceon",
-        "cryogonal",
-        "malamar",
-        "clauncher",
-        "delta-hoothoot",
-        "delta-seedot",
-        "delta-meditite"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Holon Pyramid",
-      "encounters": [
-        "gengar",
-        "espeon",
-        "umbreon",
-        "unown",
-        "mismagius",
-        "lucario",
-        "chandelure",
-        "delta-torchic",
-        "delta-riolu"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Holon Undercave",
-      "encounters": [
-        "poliwag",
-        "poliwhirl",
-        "golem",
-        "seel",
-        "kingler",
-        "marowak",
-        "seadra",
-        "staryu",
-        "dragonair",
-        "lanturn",
-        "quagsire",
-        "swampert",
-        "wailord",
-        "whiscash",
-        "huntail",
-        "gorebyss",
-        "luvdisc",
-        "gabite",
-        "tympole",
-        "palpitoad",
-        "carracosta",
-        "jellicent",
-        "alomomola",
-        "stunfisk",
-        "golurk",
-        "delta-dratini",
-        "delta-magby",
-        "delta-regice"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Holon Volcano",
-      "encounters": [
-        "charizard",
-        "magikarp",
-        "tyranitar",
-        "aggron",
-        "excadrill",
-        "darmanitan",
-        "volcarona",
-        "talonflame",
-        "delta-remoraid",
-        "delta-sableye",
-        "delta-aron",
-        "delta-venipede",
-        "delta-registeel"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Infernal Dungeon",
-      "encounters": [
-        "magcargo",
-        "houndoom",
-        "camerupt",
-        "darmanitan",
-        "chandelure",
-        "heatmor",
-        "volcanion",
-        "heatran"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Jade Tower",
-      "encounters": [
-        "rayquaza"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Jaw Fossil",
-      "encounters": [
-        "tyrunt"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Kepler City",
-      "encounters": [
-        "tentacruel",
-        "magikarp",
-        "gyarados",
-        "lanturn",
-        "qwilfish",
-        "wingull",
-        "sharpedo",
-        "wailmer",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "beldum",
-        "swanna"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Koril Cave",
-      "encounters": [
-        "hitmonlee",
-        "hitmonchan",
-        "kabutops",
-        "lanturn",
-        "qwilfish",
-        "hitmontop",
-        "gastrodon",
-        "terrakion",
-        "skrelp"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Koril Town",
-      "encounters": [
-        "squirtle",
-        "tentacruel",
-        "cloyster",
-        "kingler",
-        "starmie",
-        "magikarp",
-        "lanturn",
-        "qwilfish",
-        "corsola",
-        "whiscash"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Lost Pond",
-      "encounters": [
-        "delta-amaura"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Lush Island",
-      "encounters": [
-        "delta-dunsparce"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Maelstrom 9",
-      "encounters": [
-        "tentacruel",
-        "cloyster",
-        "seaking",
-        "magikarp",
-        "gyarados",
-        "lanturn",
-        "kingdra",
-        "wingull",
-        "carvanha",
-        "sharpedo",
-        "wailmer",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "relicanth",
-        "floatzel"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Metchi Town",
-      "encounters": [
-        "tentacool",
-        "dewgong",
-        "krabby",
-        "staryu",
-        "marill",
-        "basculin",
-        "alomomola",
-        "delta-ditto"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Miara Archaeological Site",
-      "encounters": [
-        "geodude",
-        "shuckle",
-        "nosepass",
-        "roggenrola",
-        "dwebble",
-        "carbink"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Miara Town",
-      "encounters": [
-        "machoke",
-        "tentacruel",
-        "haunter",
-        "lanturn",
-        "sunkern",
-        "slugma",
-        "corsola",
-        "remoraid",
-        "octillery",
-        "mantine",
-        "wailmer",
-        "barboach",
-        "whiscash",
-        "tropius",
-        "finneon",
-        "lumineon",
-        "delta-koffing"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Midna Garden",
-      "encounters": [
-        "tentacool",
-        "shellder",
-        "cloyster",
-        "exeggcute",
-        "magikarp",
-        "gyarados",
-        "dratini",
-        "surskit",
-        "piplup",
-        "stunky",
-        "heatmor",
-        "durant",
-        "cobalion"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Midna Mine",
-      "encounters": [
-        "zubat",
-        "poliwag",
-        "geodude",
-        "seel",
-        "goldeen",
-        "seaking",
-        "shuckle",
-        "phanpy",
-        "nosepass",
-        "clamperl",
-        "huntail",
-        "gorebyss",
-        "luvdisc",
-        "roggenrola",
-        "woobat",
-        "drilbur",
-        "dwebble",
-        "carbink"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Midna Town",
-      "encounters": [
-        "gastly",
-        "corsola",
-        "elekid",
-        "carvanha",
-        "sharpedo",
-        "buizel",
-        "finneon",
-        "lumineon",
-        "tympole",
-        "seismitoad"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Mimry Gardens",
-      "encounters": [
-        "delta-meloetta"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Mist Island",
-      "encounters": [
-        "psyduck",
-        "horsea",
-        "gyarados",
-        "wailmer",
-        "wailord",
-        "corphish",
-        "spheal",
-        "latias",
-        "lumineon",
-        "palpitoad",
-        "frillish"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Misty Way",
-      "encounters": [
-        "psyduck",
-        "horsea",
-        "gyarados",
-        "quagsire",
-        "girafarig",
-        "wailmer",
-        "wailord",
-        "swablu",
-        "altaria",
-        "corphish",
-        "castform",
-        "spheal",
-        "mime-jr.",
-        "lumineon",
-        "palpitoad",
-        "frillish"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Mount Rose",
-      "encounters": [
-        "charmander",
-        "nidoqueen",
-        "clefable",
-        "arcanine",
-        "poliwrath",
-        "tentacool",
-        "slowbro",
-        "doduo",
-        "dewgong",
-        "kingler",
-        "politoed",
-        "dunsparce",
-        "granbull",
-        "scizor",
-        "heracross",
-        "pelipper",
-        "ninjask",
-        "shedinja",
-        "wailmer",
-        "swablu",
-        "barboach",
-        "whiscash",
-        "registeel",
-        "wormadam",
-        "leavanny",
-        "swanna",
-        "escavalier",
-        "frillish",
-        "alomomola",
-        "accelgor",
-        "deino",
-        "spritzee",
-        "slurpuff",
-        "barbaracle",
-        "delta-phantump",
-        "tentacool",
-        "golem",
-        "slowbro",
-        "dewgong",
-        "kingler",
-        "starmie",
-        "quagsire",
-        "steelix",
-        "ursaring",
-        "sableye",
-        "aggron",
-        "wailmer",
-        "barboach",
-        "whiscash",
-        "claydol",
-        "glalie",
-        "jirachi",
-        "gigalith",
-        "excadrill",
-        "frillish",
-        "alomomola",
-        "beartic",
-        "barbaracle",
-        "tentacool",
-        "slowbro",
-        "dewgong",
-        "kingler",
-        "politoed",
-        "granbull",
-        "heracross",
-        "corsola",
-        "octillery",
-        "stantler",
-        "sceptile",
-        "ninjask",
-        "shedinja",
-        "sharpedo",
-        "wailmer",
-        "barboach",
-        "whiscash",
-        "empoleon",
-        "carracosta",
-        "swanna",
-        "escavalier",
-        "frillish",
-        "alomomola",
-        "accelgor",
-        "chesnaught",
-        "barbaracle"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Mountainous Cave",
-      "encounters": [
-        "tentacruel",
-        "golem",
-        "kingler",
-        "seaking",
-        "lapras",
-        "kabutops",
-        "chinchou",
-        "lanturn",
-        "aggron",
-        "lunatone",
-        "solrock",
-        "barboach",
-        "whiscash",
-        "clamperl",
-        "huntail",
-        "gabite",
-        "lumineon",
-        "gigalith",
-        "carracosta",
-        "clauncher",
-        "carbink",
-        "delta-elekid"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Murk Forest",
-      "encounters": [
-        "beedrill",
-        "butterfree",
-        "vileplume",
-        "venomoth",
-        "tentacruel",
-        "magikarp",
-        "gyarados",
-        "ariados",
-        "lanturn",
-        "qwilfish",
-        "wingull",
-        "sableye",
-        "volbeat",
-        "illumise",
-        "sharpedo",
-        "wailmer",
-        "feebas",
-        "absol",
-        "huntail",
-        "gorebyss",
-        "chimchar",
-        "honchkrow",
-        "scraggy",
-        "swanna",
-        "joltik",
-        "keldeo",
-        "froakie",
-        "delta-scraggy",
-        "delta-shinx",
-        "delta-metang-spider"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Mysterious Hideaway",
-      "encounters": [
-        "jumpluff",
-        "sigilyph",
-        "vivillon",
-        "florges",
-        "noivern"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Narra Border",
-      "encounters": [
-        "kingler",
-        "omastar",
-        "kabutops",
-        "corsola",
-        "swampert",
-        "barboach",
-        "crawdaunt",
-        "cradily",
-        "armaldo",
-        "clamperl",
-        "huntail",
-        "relicanth",
-        "rampardos",
-        "palpitoad",
-        "crustle",
-        "carracosta",
-        "alomomola",
-        "tyrantrum",
-        "aurorus"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Narra Town",
-      "encounters": [
-        "venusaur",
-        "kingler",
-        "kangaskhan",
-        "pinsir",
-        "furret",
-        "ledian",
-        "azumarill",
-        "heracross",
-        "corsola",
-        "barboach",
-        "crawdaunt",
-        "clamperl",
-        "huntail",
-        "relicanth",
-        "palpitoad",
-        "carracosta",
-        "alomomola",
-        "heliolisk",
-        "delta-growlithe"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Nasca Cave",
-      "encounters": [
-        "tentacruel",
-        "magikarp",
-        "gyarados",
-        "lanturn",
-        "sudowoodo",
-        "qwilfish",
-        "shuckle",
-        "wingull",
-        "sharpedo",
-        "wailmer",
-        "lunatone",
-        "solrock",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "rampardos",
-        "crustle",
-        "swanna",
-        "carbink"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Nasca Town",
-      "encounters": [
-        "bulbasaur",
-        "charmander",
-        "squirtle",
-        "tentacruel",
-        "cloyster",
-        "magikarp",
-        "gyarados",
-        "lanturn",
-        "sudowoodo",
-        "qwilfish",
-        "shuckle",
-        "kingdra",
-        "wingull",
-        "sharpedo",
-        "wailmer",
-        "lunatone",
-        "solrock",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "relicanth",
-        "rampardos",
-        "crustle",
-        "swanna",
-        "carbink"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Nexa Border",
-      "encounters": [
-        "poliwhirl",
-        "slowpoke",
-        "horsea",
-        "goldeen",
-        "swampert",
-        "gardevoir",
-        "wailord",
-        "whiscash",
-        "luvdisc",
-        "salamence",
-        "torterra",
-        "empoleon",
-        "mantyke",
-        "gallade",
-        "hydreigon",
-        "greninja",
-        "aegislash",
-        "clauncher",
-        "clawitzer",
-        "goodra"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Nexa Town",
-      "encounters": [
-        "blastoise",
-        "poliwhirl",
-        "slowpoke",
-        "kingler",
-        "horsea",
-        "goldeen",
-        "azumarill",
-        "ludicolo",
-        "wailord",
-        "whiscash",
-        "crawdaunt",
-        "luvdisc",
-        "mantyke",
-        "clauncher",
-        "clawitzer"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Nightmare Badlands",
-      "encounters": [
-        "gengar",
-        "magikarp",
-        "deoxys",
-        "mismagius",
-        "spiritomb",
-        "dusknoir",
-        "musharna",
-        "zoroark",
-        "gothitelle",
-        "reuniclus",
-        "jellicent",
-        "mandibuzz",
-        "hoopa"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "No Man's Land",
-      "encounters": [
-        "jynx",
-        "ditto",
-        "articuno",
-        "solrock",
-        "weavile",
-        "mamoswine",
-        "froslass",
-        "hydreigon",
-        "aurorus",
-        "glaceon"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Old Amber",
-      "encounters": [
-        "aerodactyl"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Oort Cloud Object",
-      "encounters": [
-        "ufi"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Oranos Town",
-      "encounters": [
-        "dewgong",
-        "horsea",
-        "seadra",
-        "magikarp",
-        "gyarados",
-        "dratini",
-        "dragonair",
-        "corsola",
-        "sharpedo",
-        "barboach",
-        "floatzel",
-        "gible",
-        "cresselia",
-        "swanna",
-        "binacle"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Outer Core",
-      "encounters": [
-        "groudon"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Perfection Laboratory",
-      "encounters": [
-        "delta-larvesta",
-        "mewtwo"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Plume Fossil",
-      "encounters": [
-        "archen"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Pokémon League",
-      "encounters": [
-        "machamp",
-        "gardevoir",
-        "lucario"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Power Farm",
-      "encounters": [
-        "delta-pawniard"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Prion Town",
-      "encounters": [
-        "delta-doduo"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "REM Ocean",
-      "encounters": [
-        "gengar",
-        "hypno",
-        "magikarp",
-        "grumpig",
-        "drifblim",
-        "bronzong",
-        "musharna",
-        "gothitelle",
-        "jellicent"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Rem Village",
-      "encounters": [
-        "gengar",
-        "magikarp",
-        "mismagius",
-        "spiritomb",
-        "dusknoir",
-        "darkrai",
-        "musharna",
-        "zoroark",
-        "gothitelle",
-        "reuniclus",
-        "jellicent",
-        "mandibuzz"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Rezzai Cavern",
-      "encounters": [
-        "dugtrio",
-        "geodude",
-        "graveler",
-        "onix",
-        "marowak",
-        "gyarados",
-        "quagsire",
-        "qwilfish",
-        "shuckle",
-        "nosepass",
-        "regirock",
-        "gastrodon",
-        "roggenrola",
-        "boldore",
-        "palpitoad",
-        "seismitoad",
-        "dwebble",
-        "axew",
-        "carbink"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Rezzai Desert",
-      "encounters": [
-        "vibrava",
-        "hippopotas",
-        "krokorok",
-        "landorus"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Roaming encounter can replace Pokemon encounters in Murk Forest",
-      "encounters": [
-        "cresselia"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Roaming encounter after subjugating Arceus",
-      "encounters": [
-        "raikou",
-        "entei",
-        "suicune"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Roggan Town",
-      "encounters": [
-        "larvesta",
-        "delta-emolga"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Root Fossil",
-      "encounters": [
-        "lileep"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Rose Crater",
-      "encounters": [
-        "flareon",
-        "magcargo",
-        "houndoom",
-        "torchic",
-        "camerupt",
-        "emboar",
-        "darmanitan"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Route 10",
-      "encounters": [
-        "tentacruel",
-        "magikarp",
-        "gyarados",
-        "lanturn",
-        "azumarill",
-        "politoed",
-        "qwilfish",
-        "phanpy",
-        "wingull",
-        "breloom",
-        "sharpedo",
-        "wailmer",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "turtwig",
-        "empoleon",
-        "carnivine",
-        "maractus",
-        "swanna",
-        "chespin",
-        "honedge"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Route 11",
-      "encounters": [
-        "tentacruel",
-        "scyther",
-        "magikarp",
-        "gyarados",
-        "lanturn",
-        "qwilfish",
-        "miltank",
-        "sceptile",
-        "wingull",
-        "sharpedo",
-        "wailmer",
-        "feebas",
-        "tropius",
-        "wynaut",
-        "huntail",
-        "gorebyss",
-        "yanmega",
-        "swanna",
-        "klink"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Route 12",
-      "encounters": [
-        "tentacruel",
-        "hitmonlee",
-        "hitmonchan",
-        "magikarp",
-        "gyarados",
-        "lanturn",
-        "qwilfish",
-        "hitmontop",
-        "wingull",
-        "vigoroth",
-        "sharpedo",
-        "wailmer",
-        "spinda",
-        "cacturne",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "tangrowth",
-        "cresselia",
-        "stoutland",
-        "swanna",
-        "florges"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Route 13",
-      "encounters": [
-        "parasect",
-        "tentacruel",
-        "magikarp",
-        "gyarados",
-        "lanturn",
-        "flaaffy",
-        "bellossom",
-        "qwilfish",
-        "linoone",
-        "dustox",
-        "wingull",
-        "sharpedo",
-        "wailmer",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "cresselia",
-        "swanna",
-        "sawsbuck"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Route 14",
-      "encounters": [
-        "bulbasaur",
-        "hypno",
-        "horsea",
-        "seaking",
-        "lanturn",
-        "girafarig",
-        "sneasel",
-        "octillery",
-        "plusle",
-        "minun",
-        "sharpedo",
-        "wailmer",
-        "huntail",
-        "gorebyss",
-        "luvdisc",
-        "vespiquen",
-        "pachirisu",
-        "finneon",
-        "mantyke",
-        "cresselia",
-        "dewott",
-        "simipour",
-        "tympole",
-        "basculin",
-        "scraggy",
-        "swanna",
-        "jellicent",
-        "meowstic",
-        "barbaracle",
-        "dedenne"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Route 15",
-      "encounters": [
-        "fearow",
-        "poliwag",
-        "seaking",
-        "staryu",
-        "gyarados",
-        "shuckle",
-        "corsola",
-        "octillery",
-        "manectric",
-        "sharpedo",
-        "zangoose",
-        "lunatone",
-        "solrock",
-        "corphish",
-        "crawdaunt",
-        "cradily",
-        "armaldo",
-        "absol",
-        "empoleon",
-        "togekiss",
-        "gigalith",
-        "darumaka",
-        "carracosta",
-        "zorua",
-        "swanna",
-        "alomomola",
-        "ferroseed",
-        "ferrothorn",
-        "druddigon",
-        "honedge",
-        "clawitzer",
-        "noibat",
-        "noivern"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Route 16",
-      "encounters": [
-        "poliwag",
-        "drowzee",
-        "kingler",
-        "lickitung",
-        "horsea",
-        "furret",
-        "azumarill",
-        "remoraid",
-        "mantine",
-        "altaria",
-        "crawdaunt",
-        "feebas",
-        "huntail",
-        "luvdisc",
-        "honchkrow",
-        "chatot",
-        "palpitoad",
-        "seismitoad",
-        "carracosta",
-        "emolga",
-        "floette",
-        "pangoro",
-        "doublade",
-        "malamar",
-        "binacle",
-        "heliolisk",
-        "delta-girafarig"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Route 17",
-      "encounters": [
-        "bulbasaur",
-        "charizard",
-        "poliwag",
-        "poliwhirl",
-        "slowbro",
-        "dewgong",
-        "horsea",
-        "tauros",
-        "dratini",
-        "wailord",
-        "beldum",
-        "luxray",
-        "cherrim",
-        "lumineon",
-        "simipour",
-        "unfezant",
-        "basculin",
-        "frillish",
-        "bouffalant",
-        "chespin",
-        "froakie",
-        "clauncher",
-        "clawitzer"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Route 1",
-      "encounters": [
-        "meowth",
-        "ponyta",
-        "magikarp",
-        "gyarados",
-        "hoppip",
-        "lotad",
-        "barboach",
-        "whiscash",
-        "oshawott",
-        "blitzle",
-        "bunnelby",
-        "skrelp",
-        "dragalge",
-        "delta-dwebble-cake"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Route 2",
-      "encounters": [
-        "krabby",
-        "staryu",
-        "totodile",
-        "marill",
-        "corsola",
-        "remoraid",
-        "octillery",
-        "corphish",
-        "bidoof",
-        "buizel"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Route 3",
-      "encounters": [
-        "charmander",
-        "tentacool",
-        "dewgong",
-        "krabby",
-        "staryu",
-        "sudowoodo",
-        "mantine",
-        "seedot",
-        "nuzleaf",
-        "ralts",
-        "kirlia",
-        "mantyke",
-        "pansage",
-        "throh",
-        "sawk",
-        "petilil",
-        "basculin",
-        "delta-scyther"
-      ]
-    },
-    {
-      "type": "route",
       "name": "Route 4",
       "encounters": [
         "fearow",
@@ -2497,6 +766,52 @@
     },
     {
       "type": "route",
+      "name": "Vipik City",
+      "encounters": [
+        "togepi",
+        "sneasel",
+        "delta-wooper"
+      ]
+    },
+    {
+      "type": "gym",
+      "name": "Vipik Gym",
+      "value": "2_e",
+      "group": "gym-leader",
+      "boss": "Xavier"
+    },
+    {
+      "type": "route",
+      "name": "Vipik Dump",
+      "encounters": [
+        "grimer",
+        "gulpin",
+        "stunky",
+        "venipede",
+        "trubbish"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Crossroads",
+      "encounters": [
+        "growlithe",
+        "weepinbell",
+        "slowpoke",
+        "ditto",
+        "dunsparce",
+        "qwilfish",
+        "electrike",
+        "kecleon",
+        "piplup",
+        "stunky",
+        "fennekin",
+        "fletchling",
+        "clauncher"
+      ]
+    },
+    {
+      "type": "route",
       "name": "Route 5",
       "encounters": [
         "seadra",
@@ -2510,6 +825,155 @@
         "servine",
         "cottonee",
         "floette"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Samsara Cave",
+      "encounters": [
+        "machoke",
+        "geodude",
+        "graveler",
+        "marowak",
+        "gyarados",
+        "quagsire",
+        "qwilfish",
+        "shuckle",
+        "pupitar",
+        "nosepass",
+        "lunatone",
+        "solrock",
+        "gastrodon",
+        "riolu",
+        "roggenrola",
+        "boldore",
+        "palpitoad",
+        "seismitoad",
+        "dwebble",
+        "meloetta",
+        "carbink",
+        "delta-pidgey"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Koril Town",
+      "encounters": [
+        "squirtle",
+        "tentacruel",
+        "cloyster",
+        "kingler",
+        "starmie",
+        "magikarp",
+        "lanturn",
+        "qwilfish",
+        "corsola",
+        "whiscash"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Koril Cave",
+      "encounters": [
+        "hitmonlee",
+        "hitmonchan",
+        "kabutops",
+        "lanturn",
+        "qwilfish",
+        "hitmontop",
+        "gastrodon",
+        "terrakion",
+        "skrelp"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Science Mission 1",
+      "encounters": [
+        "omanyte",
+        "kabutops",
+        "lileep",
+        "archen"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Rezzai Desert",
+      "encounters": [
+        "vibrava",
+        "hippopotas",
+        "krokorok",
+        "landorus"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Rezzai Cavern",
+      "encounters": [
+        "dugtrio",
+        "geodude",
+        "graveler",
+        "onix",
+        "marowak",
+        "gyarados",
+        "quagsire",
+        "qwilfish",
+        "shuckle",
+        "nosepass",
+        "regirock",
+        "gastrodon",
+        "roggenrola",
+        "boldore",
+        "palpitoad",
+        "seismitoad",
+        "dwebble",
+        "axew",
+        "carbink"
+      ]
+    },
+    {
+      "type": "gym",
+      "name": "Rezzai Cavern",
+      "value": "rd2_e",
+      "group": "rival",
+      "boss": "Damian"
+    },
+    {
+      "type": "route",
+      "name": "Roggan Town",
+      "encounters": [
+        "larvesta",
+        "delta-emolga"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Torren Game Corner",
+      "encounters": [
+        "clefairy",
+        "abra",
+        "scyther",
+        "pinsir",
+        "eevee",
+        "porygon",
+        "chikorita",
+        "mareep",
+        "heracross",
+        "smoochum",
+        "bagon",
+        "starly",
+        "solosis",
+        "goomy"
+      ]
+    },
+    {
+      "type": "route",
+      "name": "Battle Frontier",
+      "encounters": [
+        "delta-plusle",
+        "delta-minun",
+        "delta-golett",
+        "mewtwo"
       ]
     },
     {
@@ -2554,482 +1018,92 @@
     },
     {
       "type": "route",
-      "name": "Route 8",
+      "name": "Helios City",
       "encounters": [
-        "wigglytuff",
-        "rapidash",
-        "chansey",
-        "kangaskhan",
-        "snorlax",
-        "lanturn",
-        "corsola",
-        "remoraid",
-        "octillery",
-        "houndoom",
+        "smeargle",
         "barboach",
-        "whiscash",
-        "corphish",
-        "gastrodon",
-        "finneon",
-        "lumineon",
-        "swanna",
-        "spritzee",
-        "slurpuff",
-        "delta-munchlax"
+        "wynaut",
+        "bonsly",
+        "delta-lotad"
       ]
     },
     {
       "type": "route",
-      "name": "Route 9",
+      "name": "Helios Sewers",
       "encounters": [
-        "raticate",
-        "ninetales",
-        "primeape",
-        "tentacruel",
-        "magikarp",
-        "gyarados",
-        "lanturn",
-        "qwilfish",
-        "treecko",
-        "mudkip",
-        "wingull",
-        "loudred",
-        "sharpedo",
-        "wailmer",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "swanna",
-        "honedge",
-        "hawlucha",
-        "klefki",
-        "delta-combee"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Safari Zone",
-      "encounters": [
-        "sandslash",
-        "dugtrio",
-        "kingler",
-        "marowak",
-        "magikarp",
-        "gyarados",
-        "flareon",
-        "omastar",
-        "feraligatr",
-        "chinchou",
-        "lanturn",
-        "girafarig",
-        "qwilfish",
-        "corsola",
-        "delibird",
-        "kingdra",
-        "donphan",
-        "sceptile",
-        "flygon",
-        "claydol",
-        "cradily",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "purugly",
-        "hippowdon",
-        "drapion",
-        "weavile",
-        "yanmega",
-        "zebstrika",
-        "excadrill",
-        "audino",
-        "leavanny",
-        "krookodile",
-        "swanna",
-        "amoonguss",
-        "eelektross",
-        "golurk",
-        "heatmor",
-        "deino",
-        "thundurus",
-        "diggersby"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Sail Fossil",
-      "encounters": [
-        "amaura"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Samsara Cave",
-      "encounters": [
-        "machoke",
         "geodude",
-        "graveler",
-        "marowak",
-        "gyarados",
-        "quagsire",
-        "qwilfish",
+        "grimer",
+        "koffing",
         "shuckle",
-        "pupitar",
         "nosepass",
-        "lunatone",
-        "solrock",
-        "gastrodon",
-        "riolu",
+        "gulpin",
+        "stunky",
         "roggenrola",
-        "boldore",
-        "palpitoad",
-        "seismitoad",
         "dwebble",
-        "meloetta",
+        "yamask",
+        "trubbish",
+        "foongus",
         "carbink",
-        "delta-pidgey"
+        "delta-heatmor"
       ]
     },
     {
+      "type": "gym",
+      "name": "Perfection Base",
+      "value": "perf1_e",
+      "group": "evil-team",
+      "boss": "Taen"
+    },
+    {
+      "type": "gym",
+      "name": "Helios Gym",
+      "value": "3_e",
+      "group": "gym-leader",
+      "boss": "East"
+    },
+    {
+      "type": "gym",
+      "name": "Jade Tower",
+      "value": "j1_e",
+      "group": "evil-team",
+      "boss": "Jaern"
+    },
+    {
       "type": "route",
-      "name": "Satellite Corps",
+      "name": "Jade Tower",
       "encounters": [
-        "genesect",
-        "delta-cyndaquil"
+        "rayquaza"
       ]
     },
     {
       "type": "route",
-      "name": "Science Mission 1",
-      "encounters": [
-        "omanyte",
-        "kabutops",
-        "lileep",
-        "archen"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Selene City",
-      "encounters": [
-        "tentacruel",
-        "magikarp",
-        "gyarados",
-        "lanturn",
-        "qwilfish",
-        "pupitar",
-        "wingull",
-        "sharpedo",
-        "wailmer",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "cresselia",
-        "manaphy",
-        "swanna",
-        "delta-liepard"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Settlement Alfa",
-      "encounters": [
-        "delta-beldum-ruin",
-        "delta-maractus"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Settlement Foxtrot",
-      "encounters": [
-        "delta-beldum-ruin"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Settlement Juliet",
-      "encounters": [
-        "glaceon",
-        "delta-feebas",
-        "delta-beldum-ruin"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Settlement Oscar",
-      "encounters": [
-        "poliwag",
-        "dewgong",
-        "kingler",
-        "horsea",
-        "goldeen",
-        "octillery",
-        "whiscash",
-        "corphish",
-        "crawdaunt",
-        "feebas",
-        "palpitoad",
-        "clawitzer",
-        "delta-numel",
-        "delta-beldum-ruin"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Shade Forest",
-      "encounters": [
-        "caterpie",
-        "pikachu",
-        "weedle",
-        "nidoran-f",
-        "nidoran-m",
-        "poliwag",
-        "gastly",
-        "magikarp",
-        "gyarados",
-        "remoraid",
-        "octillery",
-        "mantyke",
-        "patrat",
-        "tympole",
-        "seismitoad"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Skull Fossil",
-      "encounters": [
-        "cranidos"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Slither Forest",
-      "encounters": [
-        "arbok",
-        "seviper",
-        "delta-deino"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Soaring",
-      "encounters": [
-        "pidgeot",
-        "dragonite",
-        "skiploom",
-        "skarmory",
-        "swellow",
-        "pelipper",
-        "altaria",
-        "salamence",
-        "staraptor",
-        "drifblim",
-        "sigilyph",
-        "braviary",
-        "delta-drifloon",
-        "delta-pikachu",
-        "delta-wailmer"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Sonata City",
+      "name": "Cave of Steam",
       "encounters": [
         "tentacruel",
-        "magikarp",
-        "gyarados",
-        "cyndaquil",
-        "lanturn",
-        "qwilfish",
-        "wingull",
-        "sharpedo",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "swanna"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Sonata Hills",
-      "encounters": [
-        "tentacruel",
-        "magikarp",
-        "gyarados",
-        "lanturn",
-        "qwilfish",
-        "wingull",
-        "sharpedo",
-        "wailmer",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "swanna",
-        "delta-litwick"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Sonata Tracks",
-      "encounters": [
-        "zebstrika"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Starter Pokémon",
-      "encounters": [
-        "eevee",
-        "delta-bulbasaur",
-        "delta-charmander",
-        "delta-squirtle"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Stormy Seas",
-      "encounters": [
-        "tentacruel",
-        "magikarp",
-        "gyarados",
-        "lanturn",
-        "quagsire",
-        "qwilfish",
-        "wingull",
-        "sharpedo",
-        "wailmer",
-        "corphish",
-        "feebas",
-        "huntail",
-        "gorebyss",
-        "swanna"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Suntouched City",
-      "encounters": [
-        "machop",
-        "krabby",
-        "zapdos",
-        "natu",
-        "corsola",
-        "remoraid",
-        "octillery",
-        "corphish",
-        "delta-aipom"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Suntouched Exitway",
-      "encounters": [
-        "magnemite",
-        "shellder",
-        "cloyster",
-        "onix",
-        "magikarp",
-        "gyarados",
-        "dratini",
-        "shuckle",
-        "whismur",
-        "makuhita",
-        "piplup",
-        "roggenrola",
-        "timburr",
-        "skrelp",
-        "clauncher"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Telnor Cave",
-      "encounters": [
-        "diglett",
         "geodude",
-        "onix",
-        "cubone",
+        "marowak",
+        "rhyhorn",
+        "starmie",
         "magikarp",
         "gyarados",
-        "wooper",
-        "qwilfish",
-        "nosepass",
-        "baltoy",
-        "shellos",
-        "roggenrola",
-        "tympole",
-        "seismitoad",
-        "delta-diglett"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Thanatos Cliffs",
-      "encounters": [
-        "yveltal"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Throne of the Hegemon",
-      "encounters": [
-        "giratina",
-        "arceus"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Torren Game Corner",
-      "encounters": [
-        "clefairy",
-        "abra",
-        "scyther",
-        "pinsir",
-        "eevee",
-        "porygon",
-        "chikorita",
-        "mareep",
-        "heracross",
-        "smoochum",
-        "bagon",
-        "starly",
-        "solosis",
-        "goomy"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Trade Outpost",
-      "encounters": [
-        "delta-axew"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Upper Mantle",
-      "encounters": [
+        "lapras",
+        "croconaw",
+        "lanturn",
+        "shuckle",
+        "slugma",
         "magcargo",
-        "houndoom",
-        "sableye",
-        "camerupt",
-        "spiritomb",
-        "excadrill",
-        "darmanitan",
-        "chandelure",
-        "bisharp",
-        "heatmor"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Utira Library",
-      "encounters": [
-        "gengar",
-        "banette",
-        "dusclops",
-        "mismagius",
-        "litwick",
-        "delta-budew"
+        "remoraid",
+        "octillery",
+        "swampert",
+        "nosepass",
+        "torkoal",
+        "roggenrola",
+        "gigalith",
+        "dwebble",
+        "druddigon",
+        "heatmor",
+        "carbink",
+        "volcanion"
       ]
     },
     {
@@ -3052,147 +1126,28 @@
     },
     {
       "type": "route",
-      "name": "Victory Road",
+      "name": "Utira Library Abandon Wing",
       "encounters": [
-        "blastoise",
-        "charizard",
-        "machamp",
-        "slowbro",
-        "kingler",
-        "electrode",
-        "goldeen",
-        "jynx",
-        "dragonite",
-        "azumarill",
-        "remoraid",
-        "octillery",
-        "tyranitar",
-        "ludicolo",
-        "slaking",
-        "aggron",
-        "sharpedo",
-        "wailord",
-        "crawdaunt",
-        "feebas",
-        "absol",
-        "glalie",
-        "salamence",
-        "regice",
-        "finneon",
-        "lumineon",
-        "abomasnow",
-        "weavile",
-        "glaceon",
-        "dusknoir",
-        "serperior",
-        "excadrill",
-        "darmanitan",
-        "carracosta",
-        "cryogonal",
-        "volcarona",
-        "virizion",
-        "tornadus",
-        "kyurem",
-        "talonflame",
-        "clawitzer",
-        "hawlucha",
-        "goodra",
-        "avalugg",
-        "delta-petilil-water"
+        "gengar",
+        "banette",
+        "dusclops",
+        "mismagius",
+        "litwick"
       ]
     },
     {
       "type": "route",
-      "name": "Vipik City",
+      "name": "Utira Library Far West Wing",
       "encounters": [
-        "togepi",
-        "sneasel",
-        "delta-wooper"
+        "delta-budew"
       ]
     },
     {
-      "type": "route",
-      "name": "Vipik Dump",
-      "encounters": [
-        "grimer",
-        "gulpin",
-        "stunky",
-        "venipede",
-        "trubbish"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Void Gauntlet",
-      "encounters": [
-        "beedrill",
-        "butterfree",
-        "raticate",
-        "rattata",
-        "sandslash",
-        "zubat",
-        "golbat",
-        "paras",
-        "growlithe",
-        "graveler",
-        "grimer",
-        "gastly",
-        "haunter",
-        "cubone",
-        "koffing",
-        "weezing",
-        "moltres",
-        "hoothoot",
-        "ledyba",
-        "pineco",
-        "steelix",
-        "donphan",
-        "pupitar",
-        "shroomish",
-        "lairon",
-        "kricketot",
-        "rhyperior",
-        "dialga",
-        "palkia",
-        "petilil",
-        "durant",
-        "zygarde"
-      ]
-    },
-    {
-      "type": "route",
-      "name": "Whirl Islands",
-      "encounters": [
-        "tentacruel",
-        "geodude",
-        "golem",
-        "kingler",
-        "magikarp",
-        "gyarados",
-        "lanturn",
-        "qwilfish",
-        "shuckle",
-        "lugia",
-        "wingull",
-        "nosepass",
-        "lairon",
-        "sharpedo",
-        "wailmer",
-        "crawdaunt",
-        "feebas",
-        "glalie",
-        "sealeo",
-        "huntail",
-        "gorebyss",
-        "relicanth",
-        "roggenrola",
-        "gigalith",
-        "dwebble",
-        "swanna",
-        "cryogonal",
-        "carbink",
-        "delta-clamperl"
-      ]
+      "type": "gym",
+      "name": "Utira Library",
+      "value": "damned1_e",
+      "group": "evil-team",
+      "boss": "???"
     }
   ]
 }

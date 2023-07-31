@@ -30,7 +30,7 @@
   />
 
   {format(death?.epitaph, {
-    pokemon: { name: regionise(capitalise(pokemon)) },
+    pokemon: { name: capitalise(regionise(pokemon)) },
     nickname,
     ...death
   })}

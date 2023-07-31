@@ -29,7 +29,7 @@
 
   let tooltip
   $: tooltip = format(death?.epitaph, {
-    pokemon: { name: regionise(capitalise(pokemon)) },
+    pokemon: { name: capitalise(regionise(pokemon)) },
     nickname,
     ...death
   })
@@ -105,9 +105,9 @@
 
     <p class="z-20 pt-4 text-center">
       {#if nickname}
-        {capitalise(nickname)} the <br /> {regionise(capitalise(pokemon))}
+        {capitalise(nickname)} the <br /> {capitalise(regionise(pokemon))}
       {:else}
-        An unknown <br /> {regionise(capitalise(pokemon))}
+        An unknown <br /> {capitalise(regionise(pokemon))}
       {/if}
     </p>
   </div>
